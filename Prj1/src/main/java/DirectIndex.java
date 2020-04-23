@@ -7,7 +7,6 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
-import java.util.TreeMap;
 
 public class DirectIndex {
 	public static HashMap<String, HashMap<String, Integer>> directIndex = new HashMap<>();

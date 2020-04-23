@@ -49,20 +49,25 @@ public class VectorSearch {
         boolean atLeastOneWordInCommon = false;
         for(String word : queryDoc.keySet())
         {
-            if (doc.containsKey(word)) // facem produsele scalare doar pentru elementele ce exista in ambele documente
+            if (doc.containsKey(word))
             {
                 atLeastOneWordInCommon = true;
                 tfIdf1 = doc.get(word);
                 tfIdf2 = queryDoc.get(word);
                 dotProduct += Math.abs(tfIdf1 * tfIdf2);
-                sumSquaresD1 += tfIdf1 * tfIdf1;
-                sumSquaresD2 += tfIdf2 * tfIdf2;
             }
+            tfIdf2 = queryDoc.get(word);
+            sumSquaresD2 += tfIdf2 * tfIdf2;
         }
 
         if (!atLeastOneWordInCommon || dotProduct == 0)
         {
             return 0;
+        }
+        for(String word : doc.keySet())
+        {
+        	tfIdf1 = doc.get(word);
+        	sumSquaresD1 += tfIdf1 * tfIdf1;
         }
         return Math.abs(dotProduct) / (Math.sqrt(sumSquaresD1) * Math.sqrt(sumSquaresD2));
     }
@@ -96,31 +101,27 @@ public class VectorSearch {
     
     public static SortedSet<HashMap.Entry<String, Double>> Search(String query, HashMap<String, HashMap<String, Double>> documentVectors) throws IOException
     {
-        // impartim interogarea in cuvinte, dupa spatii
         String[] splitQuery = query.split("\\s+");
         ArrayList<String> queryWords = new ArrayList<>();
 
         int i = 0;
         while (i <= splitQuery.length - 1)
         {
-            // ordinea fireasca este: operand OPERATOR operand OPERATOR ...
             String word = splitQuery[i];
 
-            // mai intai, verificam daca este exceptie
             if (DirectIndex.exceptions.contains(word))
             {
-                // il adaugam asa cum este
+                
                 queryWords.add(word); ++i;
             }
-            // apoi daca este stopword
+
             else if (DirectIndex.stopwords.contains(word))
             {
-                // ignoram cuvantul de tot
+
                 ++i;
             }
-            else // cuvant de dictionar
+            else 
             {
-                // se foloseste algoritmul Porter pentru stemming
                 PorterStemmer stemmer = new PorterStemmer();
                 stemmer.add(word.toCharArray(), word.length());
                 stemmer.stem();
@@ -130,27 +131,22 @@ public class VectorSearch {
             }
         }
 
-        // transformam interogarea in vector
         TreeMap<String, Double> queryVector = new TreeMap<>();
         for (String word : queryWords)
         {
             queryVector.put(word, getTfQuery(word, queryWords) * MongoDatabaseClient.getIDF(word));
         }
 
-        // calculam similaritatile cosinus pentru toate documentele existente
         HashMap<String, Double> similarities = new HashMap<>();
         for (String document: documentVectors.keySet())
         {
-            // calculam similaritatea cosinus intre documentul curent si interogarea utilizatorului
             double similarity = cosineSimilarity(documentVectors.get(document), queryVector);
             if (similarity != 0)
             {
-                // luam in calcul doar documentele in care exista cel putin un cuvant al utilizatorului
                 similarities.put(document, similarity);
             }
         }
 
-        // sortam documentele descrescator d.p.d.v. a similaritatii cosinus
         return entriesSortedByValues(similarities);
     }
 }
