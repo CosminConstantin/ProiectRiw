@@ -1,0 +1,3556 @@
+<!DOCTYPE html> 
+
+<!-- template: /a/www/ietf-datatracker/web/ietf/templates/base.html -->
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Active IETF working groups</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://www.ietf.org/lib/dt/6.74.0/ptmono/stylesheet.css" rel='stylesheet' type='text/css'>
+    <link href="https://www.ietf.org/lib/dt/6.74.0/ptsans/stylesheet.css" rel='stylesheet' type='text/css'>
+    <link href="https://www.ietf.org/lib/dt/6.74.0/ptserif/stylesheet.css" rel='stylesheet' type='text/css'>
+    
+
+    <link rel="stylesheet" href="https://www.ietf.org/lib/dt/6.74.0/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.ietf.org/lib/dt/6.74.0/ietf/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://www.ietf.org/lib/dt/6.74.0/ietf/bootstrap/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="https://www.ietf.org/lib/dt/6.74.0/ietf/css/ietf.css">
+    
+    <style>
+     
+    </style>
+
+    <!--[if lt IE 9]>
+        <script src="https://www.ietf.org/lib/dt/6.74.0/html5shiv/html5shiv.min.js"></script>
+        <script src="https://www.ietf.org/lib/dt/6.74.0/respond/dest/respond.min.js"></script>
+    <![endif]-->
+    
+<link rel="stylesheet" href="https://www.ietf.org/lib/dt/6.74.0/jquery.tablesorter/css/theme.bootstrap.min.css">
+
+
+    
+    <link rel="shortcut icon" href="https://www.ietf.org/lib/dt/6.74.0/ietf/images/ietf-icon-blue3.png">
+    
+    <link rel="apple-touch-icon" href="https://www.ietf.org/lib/dt/6.74.0/ietf/images/apple-touch-icon.png">
+  </head>
+
+  <body data-spy="scroll" data-target="#affix" data-group-menu-data-url="/group/groupmenu.json">
+      <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+	  <div class="navbar-header">
+	    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+	      <span class="sr-only">Toggle navigation</span>
+	      <span class="icon-bar"></span>
+	      <span class="icon-bar"></span>
+	      <span class="icon-bar"></span>
+	    </button>
+	    <a class="navbar-brand" href="/">
+	       <img alt="IETF Logo" src="https://www.ietf.org/lib/dt/6.74.0/ietf/images/ietflogo-small-transparent.png">
+	       
+		  
+		  Datatracker
+		  
+	       
+	    </a>
+	  </div>
+
+	  <noscript>
+	    <p class="navbar-text"><small>Enable Javascript for full functionality.</small></p>
+	  </noscript>
+
+	  <div class="collapse navbar-collapse" id="navbar-collapse">
+	    <ul class="hidden-nojs nav navbar-nav">
+              <!-- template: /a/www/ietf-datatracker/web/ietf/templates/base/menu.html -->
+
+
+
+
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+  
+  Groups
+  
+    </a>
+    <ul class="dropdown-menu" role="menu">
+  
+
+  <li><a href="/wg/">Active WGs</a></li>
+  <li><a href="/rg/">Active RGs</a></li>
+  <li class="dropdown-submenu group-menu"><a href="/group/">Other</a><!-- template: /a/www/ietf-datatracker/web/ietf/templates/base/menu_active_groups.html -->
+<ul class="dropdown-menu" role="menu">
+
+  <li>
+    <a href="/ag/">Active AGs</a>
+  </li>
+
+  <li>
+    <a href="/area/">Active Areas</a>
+  </li>
+
+  <li>
+    <a href="/dir/">Active Directorates</a>
+  </li>
+
+  <li>
+    <a href="/program/">Active Programs</a>
+  </li>
+
+  <li>
+    <a href="/team/">Active Teams</a>
+  </li>
+
+</ul>
+ </li>
+
+  <li class="divider hidden-xs"></li>
+  <li class="dropdown-header visible-lg-block">By area/parent</li>
+        <!-- template: /a/www/ietf-datatracker/web/ietf/templates/base/menu_wg.html -->
+
+  <li class="hidden-nojs dropdown-submenu group-menu group-parent-2010">
+    <a href="/wg/#art">Applications and Real-Time</a>
+  </li>
+
+  <li class="hidden-nojs dropdown-submenu group-menu group-parent-1008">
+    <a href="/wg/#gen">General</a>
+  </li>
+
+  <li class="hidden-nojs dropdown-submenu group-menu group-parent-1052">
+    <a href="/wg/#int">Internet</a>
+  </li>
+
+  <li class="hidden-nojs dropdown-submenu group-menu group-parent-1193">
+    <a href="/wg/#ops">Ops &amp; Mgmt</a>
+  </li>
+
+  <li class="hidden-nojs dropdown-submenu group-menu group-parent-1249">
+    <a href="/wg/#rtg">Routing</a>
+  </li>
+
+  <li class="hidden-nojs dropdown-submenu group-menu group-parent-1260">
+    <a href="/wg/#sec">Security</a>
+  </li>
+
+  <li class="hidden-nojs dropdown-submenu group-menu group-parent-1324">
+    <a href="/wg/#tsv">Transport</a>
+  </li>
+
+  <li class="hidden-nojs dropdown-submenu group-menu group-parent-3">
+    <a href="/rg/">IRTF</a>
+  </li>
+
+
+        
+
+  <li class="divider hidden-xs"></li>
+  <li class="dropdown-header hidden-xs">New work</li>
+  <li><a href="/group/chartering/">Chartering groups</a></li>
+  <li><a href="/wg/bofs/">BOFs</a></li>
+
+  <li class="divider hidden-xs"></li>
+  <li class="dropdown-header hidden-xs">Other groups</li>
+  <li><a href="/group/concluded/">Concluded groups</a></li>
+  <li><a href="/list/nonwg">Non-WG lists</a></li>
+
+</ul>
+
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+  
+  Documents
+  
+    </a>
+    <ul class="dropdown-menu" role="menu">
+  
+  <li><a href="/doc/search/">Search</a></li>
+  <li><a href="/submit/">Draft submission</a></li>
+
+  
+    <li><a rel="nofollow" href="/accounts/login/?next=/wg/">Sign in to track docs</a></li>
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  <li class="divider hidden-xs"></li>
+  <li class="dropdown-header hidden-xs">RFC streams</li>
+        <li><a href="/stream/iab/">IAB</a></li>
+        <li><a href="/stream/irtf/">IRTF</a></li>
+        <li><a href="/stream/ise/">ISE</a></li>
+
+</ul>
+
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+  
+  Meetings
+  
+    </a>
+    <ul class="dropdown-menu" role="menu">
+  
+
+  <li><a href="/meeting/agenda/">Agenda</a></li>
+  <li><a href="/meeting/materials/">Materials</a></li>
+  <li><a href="/meeting/floor-plan/">Floor plan</a></li>
+  <li><a href="/meeting/important-dates/">Important dates</a></li>
+  <li><a href="https://www.ietf.org/meeting/proceedings.html">Past proceedings</a></li>
+  <li><a href="/meeting/upcoming">Upcoming</a></li>
+  <li><a href="/meeting/past">Past</a></li>
+  <li><a href="/secr/sreq/">Request a session</a></li>
+  <li><a href="/meeting/requests">Session requests</a></li>
+</ul>
+
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+  
+  Other
+  
+    </a>
+    <ul class="dropdown-menu" role="menu">
+  
+
+  <li><a href="/ipr/">IPR disclosures</a></li>
+  <li><a href="/liaison/">Liaison statements</a></li>
+  <li><a href="/iesg/agenda/">IESG agenda</a></li>
+  <li><a href="/doc/downref/">Downref registry</a></li>
+  <li><a href="/stats/">Statistics</a></li>
+  <li><a href="/group/edu/materials/">Tutorials</a></li>
+  <li class="divider hidden-xs"></li>
+  <li><a href="https://tools.ietf.org/tools/ietfdb/newticket"><span class="fa fa-bug"></span> Report a bug</a></li>
+</ul>
+
+
+  <!-- template: /a/www/ietf-datatracker/web/ietf/templates/base/menu_user.html -->
+
+
+<li class="dropdown">
+  
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+     User 
+  </a>
+  <ul class="dropdown-menu" role="menu">
+  
+
+  
+    
+      <li><a rel="nofollow" href="/accounts/login/?next=/wg/">Sign in</a></li>
+      <li><a rel="nofollow" href="/accounts/reset/">Password reset</a></li>
+      <li><a href="/accounts/settings/" rel="nofollow">Preferences</a></li>
+    
+  
+
+  
+    <li><a href="/accounts/create/">New account</a></li>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</ul>
+
+
+
+            </ul>
+
+	    <form class="navbar-form navbar-right hidden-xs" action="/doc/search/">
+	      <div class="form-group">
+	        <input class="form-control input-sm" type="text" name="name" placeholder="Document search">
+	        <input type="hidden" name="activedrafts" value="on">
+	        <input type="hidden" name="rfcs" value="on">
+	      </div>
+	    </form>
+	  </div>
+        </div>
+      </nav>
+      <div class="container-fluid">
+        
+        
+         
+          <div class="row">
+	    <div class="col-md-2 visible-md visible-lg leftmenu">
+	      <ul class="nav nav-pills nav-stacked panel panel-default panel-body">
+                <!-- template: /a/www/ietf-datatracker/web/ietf/templates/base/menu.html -->
+
+
+
+  <!-- template: /a/www/ietf-datatracker/web/ietf/templates/base/menu_user.html -->
+
+
+<li class="nav-header">
+  
+     User
+  
+
+  
+    
+      <li><a rel="nofollow" href="/accounts/login/?next=/wg/">Sign in</a></li>
+      <li><a rel="nofollow" href="/accounts/reset/">Password reset</a></li>
+      <li><a href="/accounts/settings/" rel="nofollow">Preferences</a></li>
+    
+  
+
+  
+    <li><a href="/accounts/create/">New account</a></li>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+<li class="nav-header">
+  
+  
+  Groups
+  
+
+  <li><a href="/wg/">Active WGs</a></li>
+  <li><a href="/rg/">Active RGs</a></li>
+  <li class="dropdown-submenu group-menu"><a href="/group/">Other</a><!-- template: /a/www/ietf-datatracker/web/ietf/templates/base/menu_active_groups.html -->
+<ul class="dropdown-menu" role="menu">
+
+  <li>
+    <a href="/ag/">Active AGs</a>
+  </li>
+
+  <li>
+    <a href="/area/">Active Areas</a>
+  </li>
+
+  <li>
+    <a href="/dir/">Active Directorates</a>
+  </li>
+
+  <li>
+    <a href="/program/">Active Programs</a>
+  </li>
+
+  <li>
+    <a href="/team/">Active Teams</a>
+  </li>
+
+</ul>
+ </li>
+
+  
+  <li class="nav-header hidden-nojs">By area/parent</li>
+        <!-- template: /a/www/ietf-datatracker/web/ietf/templates/base/menu_wg.html -->
+
+  <li class="hidden-nojs dropdown-submenu group-menu group-parent-2010">
+    <a href="/wg/#art">Applications and Real-Time</a>
+  </li>
+
+  <li class="hidden-nojs dropdown-submenu group-menu group-parent-1008">
+    <a href="/wg/#gen">General</a>
+  </li>
+
+  <li class="hidden-nojs dropdown-submenu group-menu group-parent-1052">
+    <a href="/wg/#int">Internet</a>
+  </li>
+
+  <li class="hidden-nojs dropdown-submenu group-menu group-parent-1193">
+    <a href="/wg/#ops">Ops &amp; Mgmt</a>
+  </li>
+
+  <li class="hidden-nojs dropdown-submenu group-menu group-parent-1249">
+    <a href="/wg/#rtg">Routing</a>
+  </li>
+
+  <li class="hidden-nojs dropdown-submenu group-menu group-parent-1260">
+    <a href="/wg/#sec">Security</a>
+  </li>
+
+  <li class="hidden-nojs dropdown-submenu group-menu group-parent-1324">
+    <a href="/wg/#tsv">Transport</a>
+  </li>
+
+  <li class="hidden-nojs dropdown-submenu group-menu group-parent-3">
+    <a href="/rg/">IRTF</a>
+  </li>
+
+
+        
+
+  
+  <li class="nav-header">New work</li>
+  <li><a href="/group/chartering/">Chartering groups</a></li>
+  <li><a href="/wg/bofs/">BOFs</a></li>
+
+  
+  <li class="nav-header">Other groups</li>
+  <li><a href="/group/concluded/">Concluded groups</a></li>
+  <li><a href="/list/nonwg">Non-WG lists</a></li>
+
+
+
+<li class="nav-header">
+  
+  
+  Documents
+  
+  <li><a href="/doc/search/">Search</a></li>
+  <li><a href="/submit/">Draft submission</a></li>
+
+  
+    <li><a rel="nofollow" href="/accounts/login/?next=/wg/">Sign in to track docs</a></li>
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+  <li class="nav-header">RFC streams</li>
+        <li><a href="/stream/iab/">IAB</a></li>
+        <li><a href="/stream/irtf/">IRTF</a></li>
+        <li><a href="/stream/ise/">ISE</a></li>
+
+
+
+<li class="nav-header">
+  
+  
+  Meetings
+  
+
+  <li><a href="/meeting/agenda/">Agenda</a></li>
+  <li><a href="/meeting/materials/">Materials</a></li>
+  <li><a href="/meeting/floor-plan/">Floor plan</a></li>
+  <li><a href="/meeting/important-dates/">Important dates</a></li>
+  <li><a href="https://www.ietf.org/meeting/proceedings.html">Past proceedings</a></li>
+  <li><a href="/meeting/upcoming">Upcoming</a></li>
+  <li><a href="/meeting/past">Past</a></li>
+  <li><a href="/secr/sreq/">Request a session</a></li>
+  <li><a href="/meeting/requests">Session requests</a></li>
+
+
+<li class="nav-header">
+  
+  
+  Other
+  
+
+  <li><a href="/ipr/">IPR disclosures</a></li>
+  <li><a href="/liaison/">Liaison statements</a></li>
+  <li><a href="/iesg/agenda/">IESG agenda</a></li>
+  <li><a href="/doc/downref/">Downref registry</a></li>
+  <li><a href="/stats/">Statistics</a></li>
+  <li><a href="/group/edu/materials/">Tutorials</a></li>
+  
+  <li><a href="https://tools.ietf.org/tools/ietfdb/newticket"><span class="fa fa-bug"></span> Report a bug</a></li>
+
+
+
+
+              </ul>
+	    </div>
+            <div class="col-md-10" id="content">
+	      <!--[if lt IE 8]>
+	      <p id="browsehappy" class="collapse alert alert-warning alert-dismissible">
+	      <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+	      <b>You are using an outdated browser.</b> Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.
+	      </p>
+	      <![endif]-->
+
+        
+        
+  <!-- template: /a/www/ietf-datatracker/web/ietf/templates/group/active_wgs.html -->
+  <div class="row">
+    <div class="col-md-10">
+
+      <h1>Active IETF working groups</h1>
+
+      <a class="btn btn-default" href="/group/concluded/">Concluded WGs</a>
+      <a class="btn btn-default" href="/group/all-status/">Status Reports</a>
+      <a class="btn btn-default" href="/wg/photos/">Chair Photos</a>
+
+      
+        <h2 class="anchor-target" id="art">Applications and Real-Time Area (art)</h2>
+
+        
+          <h3>art Area Directors (ADs)</h3>
+          <ul class="list-unstyled">
+            
+              <li>
+		<a href="mailto:ben@nostrum.com"><span class="fa fa-envelope-o tiny"></span></a>
+		<a href="/person/Ben%20Campbell">Ben Campbell</a>
+	        
+              </li>
+            
+              <li>
+		<a href="mailto:aamelnikov@fastmail.fm"><span class="fa fa-envelope-o tiny"></span></a>
+		<a href="/person/Alexey%20Melnikov">Alexey Melnikov</a>
+	        
+              </li>
+            
+              <li>
+		<a href="mailto:adam@nostrum.com"><span class="fa fa-envelope-o tiny"></span></a>
+		<a href="/person/Adam%20Roach">Adam Roach</a>
+	        
+              </li>
+            
+          </ul>
+        
+
+        
+          <h3>art area-specific web pages</h3>
+          <ul class="list-unstyled">
+            
+              <li><a href="https://trac.ietf.org/trac/art/report/1">Issue tracker</a></li>
+            
+              <li><a href="https://trac.ietf.org/trac/art/wiki">Wiki</a></li>
+            
+          </ul>
+        
+
+        
+          <h3>art active WGs</h3>
+          <table class="table table-condensed table-striped tablesorter">
+            <thead>
+	      <tr>
+	        <th>Group</th>
+	        <th>Responsible AD</th>
+	        <th>Name</th>
+	        <th>Chairs</th>
+	      </tr>
+            </thead>
+            <tbody>
+	      
+	        <tr>
+	          <td><a href="/wg/avtcore/">avtcore</a></td>
+	          <td>
+		    
+		    <a href="mailto:ben@nostrum.com"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Ben%20Campbell">Ben</a>
+		    
+	          </td>
+	          <td>Audio/Video Transport Core Maintenance</td>
+	          <td>
+	            
+		      <a href="/person/Rachel%20Huang">Rachel Huang</a>
+		      <a href="mailto:rachel.huang@huawei.com"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Jonathan%20Lennox">Jonathan Lennox</a>
+		      <a href="mailto:jonathan@vidyo.com"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/bfcpbis/">bfcpbis</a></td>
+	          <td>
+		    
+		    <a href="mailto:adam@nostrum.com"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Adam%20Roach">Adam</a>
+		    
+	          </td>
+	          <td>Binary Floor Control Protocol Bis</td>
+	          <td>
+	            
+		      <a href="/person/Keith%20Drage">Keith Drage</a>
+		      <a href="mailto:drageke@ntlworld.com"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Charles%20Eckel">Charles Eckel</a>
+		      <a href="mailto:eckelcu@cisco.com"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/calext/">calext</a></td>
+	          <td>
+		    
+		    <a href="mailto:aamelnikov@fastmail.fm"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Alexey%20Melnikov">Alexey</a>
+		    
+	          </td>
+	          <td>Calendaring Extensions</td>
+	          <td>
+	            
+		      <a href="/person/Donald%20E.%20Eastlake%203rd">Donald Eastlake</a>
+		      <a href="mailto:d3e3e3@gmail.com"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Philipp%20Kewisch">Philipp Kewisch</a>
+		      <a href="mailto:mozilla@kewis.ch"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Daniel%20Migault">Daniel Migault</a>
+		      <a href="mailto:daniel.migault@ericsson.com"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/capport/">capport</a></td>
+	          <td>
+		    
+		    <a href="mailto:adam@nostrum.com"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Adam%20Roach">Adam</a>
+		    
+	          </td>
+	          <td>Captive Portal Interaction</td>
+	          <td>
+	            
+		      <a href="/person/Erik%20Kline">Erik Kline</a>
+		      <a href="mailto:ek@google.com"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Martin%20Thomson">Martin Thomson</a>
+		      <a href="mailto:martin.thomson@gmail.com"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/cbor/">cbor</a></td>
+	          <td>
+		    
+		    <a href="mailto:aamelnikov@fastmail.fm"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Alexey%20Melnikov">Alexey</a>
+		    
+	          </td>
+	          <td>Concise Binary Object Representation Maintenance and Extensions</td>
+	          <td>
+	            
+		      <a href="/person/Joe%20Hildebrand">Joe Hildebrand</a>
+		      <a href="mailto:hildjj@cursive.net"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Francesca%20Palombini">Francesca Palombini</a>
+		      <a href="mailto:francesca.palombini@ericsson.com"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/cdni/">cdni</a></td>
+	          <td>
+		    
+		    <a href="mailto:aamelnikov@fastmail.fm"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Alexey%20Melnikov">Alexey</a>
+		    
+	          </td>
+	          <td>Content Delivery Networks Interconnection</td>
+	          <td>
+	            
+		      <a href="/person/Francois%20Le%20Faucheur">Francois Le Faucheur</a>
+		      <a href="mailto:flefauch@gmail.com"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Kevin%20J.%20Ma">Kevin Ma</a>
+		      <a href="mailto:kevin.j.ma.ietf@gmail.com"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Phil%20Sorber">Phil Sorber</a>
+		      <a href="mailto:sorber@apache.org"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/cellar/">cellar</a></td>
+	          <td>
+		    
+		    <a href="mailto:ben@nostrum.com"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Ben%20Campbell">Ben</a>
+		    
+	          </td>
+	          <td>Codec Encoding for LossLess Archiving and Realtime transmission</td>
+	          <td>
+	            
+		      <a href="/person/Tessa%20Fallon">Tessa Fallon</a>
+		      <a href="mailto:tessa.fallon@gmail.com"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Tim%20Terriberry">Tim Terriberry</a>
+		      <a href="mailto:tterriberry@mozilla.com"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/clue/">clue</a></td>
+	          <td>
+		    
+		    <a href="mailto:adam@nostrum.com"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Adam%20Roach">Adam</a>
+		    
+	          </td>
+	          <td>ControLling mUltiple streams for tElepresence</td>
+	          <td>
+	            
+		      <a href="/person/Roni%20Even">Roni Even</a>
+		      <a href="mailto:roni.even@huawei.com"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Paul%20Kyzivat">Paul Kyzivat</a>
+		      <a href="mailto:pkyzivat@alum.mit.edu"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/codec/">codec</a></td>
+	          <td>
+		    
+		    <a href="mailto:ben@nostrum.com"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Ben%20Campbell">Ben</a>
+		    
+	          </td>
+	          <td>Internet Wideband Audio Codec</td>
+	          <td>
+	            
+		      <a href="/person/Tim%20Terriberry">Tim Terriberry</a>
+		      <a href="mailto:tterriberry@mozilla.com"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Mo%20Zanaty">Mo Zanaty</a>
+		      <a href="mailto:mzanaty@cisco.com"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/core/">core</a></td>
+	          <td>
+		    
+		    <a href="mailto:aamelnikov@fastmail.fm"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Alexey%20Melnikov">Alexey</a>
+		    
+	          </td>
+	          <td>Constrained RESTful Environments</td>
+	          <td>
+	            
+		      <a href="/person/Carsten%20Bormann">Carsten Bormann</a>
+		      <a href="mailto:cabo@tzi.org"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Jaime%20Jimenez">Jaime Jimenez</a>
+		      <a href="mailto:jaime@iki.fi"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/dcrup/">dcrup</a></td>
+	          <td>
+		    
+		    <a href="mailto:aamelnikov@fastmail.fm"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Alexey%20Melnikov">Alexey</a>
+		    
+	          </td>
+	          <td>DKIM Crypto Update</td>
+	          <td>
+	            
+		      <a href="/person/Murray%20Kucherawy">Murray Kucherawy</a>
+		      <a href="mailto:superuser@gmail.com"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Rich%20Salz">Rich Salz</a>
+		      <a href="mailto:rsalz@akamai.com"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/dispatch/">dispatch</a></td>
+	          <td>
+		    
+		    <a href="mailto:ben@nostrum.com"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Ben%20Campbell">Ben</a>
+		    
+	          </td>
+	          <td>Dispatch</td>
+	          <td>
+	            
+		      <a href="/person/Mary%20Barnes">Mary Barnes</a>
+		      <a href="mailto:mary.ietf.barnes@gmail.com"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Cullen%20Jennings">Cullen Jennings</a>
+		      <a href="mailto:fluffy@iii.ca"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Murray%20Kucherawy">Murray Kucherawy</a>
+		      <a href="mailto:superuser@gmail.com"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/dmarc/">dmarc</a></td>
+	          <td>
+		    
+		    <a href="mailto:aamelnikov@fastmail.fm"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Alexey%20Melnikov">Alexey</a>
+		    
+	          </td>
+	          <td>Domain-based Message Authentication, Reporting &amp; Conformance</td>
+	          <td>
+	            
+		      <a href="/person/Tim%20Draegen">Tim Draegen</a>
+		      <a href="mailto:tim@eudaemon.net"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Ned%20Freed">Ned Freed</a>
+		      <a href="mailto:ned+dmarc@mrochek.com"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Barry%20Leiba">Barry Leiba</a>
+		      <a href="mailto:barryleiba@computer.org"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/doh/">doh</a></td>
+	          <td>
+		    
+		    <a href="mailto:adam@nostrum.com"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Adam%20Roach">Adam</a>
+		    
+	          </td>
+	          <td>DNS Over HTTPS</td>
+	          <td>
+	            
+		      <a href="/person/David%20C%20Lawrence">David Lawrence</a>
+		      <a href="mailto:tale@dd.org"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Benjamin%20M.%20Schwartz">Benjamin Schwartz</a>
+		      <a href="mailto:bemasc@google.com"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/ecrit/">ecrit</a></td>
+	          <td>
+		    
+		    <a href="mailto:adam@nostrum.com"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Adam%20Roach">Adam</a>
+		    
+	          </td>
+	          <td>Emergency Context Resolution with Internet Technologies</td>
+	          <td>
+	            
+		      <a href="/person/Allison%20Mankin">Allison Mankin</a>
+		      <a href="mailto:allison.mankin@gmail.com"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Roger%20Marshall">Roger Marshall</a>
+		      <a href="mailto:roger.marshall@comtechtel.com"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/extra/">extra</a></td>
+	          <td>
+		    
+		    <a href="mailto:aamelnikov@fastmail.fm"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Alexey%20Melnikov">Alexey</a>
+		    
+	          </td>
+	          <td>Email mailstore and eXtensions To Revise or Amend</td>
+	          <td>
+	            
+		      <a href="/person/Bron%20Gondwana">Bron Gondwana</a>
+		      <a href="mailto:brong@fastmailteam.com"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Jiankang%20Yao">Jiankang Yao</a>
+		      <a href="mailto:yaojk@cnnic.cn"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/httpbis/">httpbis</a></td>
+	          <td>
+		    
+		    <a href="mailto:aamelnikov@fastmail.fm"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Alexey%20Melnikov">Alexey</a>
+		    
+	          </td>
+	          <td>Hypertext Transfer Protocol</td>
+	          <td>
+	            
+		      <a href="/person/Patrick%20McManus">Patrick McManus</a>
+		      <a href="mailto:pmcmanus@mozilla.com"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Mark%20Nottingham">Mark Nottingham</a>
+		      <a href="mailto:mnot@mnot.net"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/ice/">ice</a></td>
+	          <td>
+		    
+		    <a href="mailto:ben@nostrum.com"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Ben%20Campbell">Ben</a>
+		    
+	          </td>
+	          <td>Interactive Connectivity Establishment</td>
+	          <td>
+	            
+		      <a href="/person/Ari%20Ker%C3%A4nen">Ari Keränen</a>
+		      <a href="mailto:ari.keranen@ericsson.com"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Peter%20Thatcher">Peter Thatcher</a>
+		      <a href="mailto:pthatcher@google.com"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/insipid/">insipid</a></td>
+	          <td>
+		    
+		    <a href="mailto:ben@nostrum.com"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Ben%20Campbell">Ben</a>
+		    
+	          </td>
+	          <td>INtermediary-safe SIP session ID</td>
+	          <td>
+	            
+		      <a href="/person/Keith%20Drage">Keith Drage</a>
+		      <a href="mailto:drageke@ntlworld.com"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Gonzalo%20Salgueiro">Gonzalo Salgueiro</a>
+		      <a href="mailto:gsalguei@cisco.com"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/jmap/">jmap</a></td>
+	          <td>
+		    
+		    <a href="mailto:aamelnikov@fastmail.fm"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Alexey%20Melnikov">Alexey</a>
+		    
+	          </td>
+	          <td>JSON Mail Access Protocol</td>
+	          <td>
+	            
+		      <a href="/person/Bron%20Gondwana">Bron Gondwana</a>
+		      <a href="mailto:brong@fastmailteam.com"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Barry%20Leiba">Barry Leiba</a>
+		      <a href="mailto:barryleiba@computer.org"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/mmusic/">mmusic</a></td>
+	          <td>
+		    
+		    <a href="mailto:ben@nostrum.com"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Ben%20Campbell">Ben</a>
+		    
+	          </td>
+	          <td>Multiparty Multimedia Session Control</td>
+	          <td>
+	            
+		      <a href="/person/Flemming%20Andreasen">Flemming Andreasen</a>
+		      <a href="mailto:fandreas@cisco.com"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Bo%20Burman">Bo Burman</a>
+		      <a href="mailto:bo.burman@ericsson.com"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/modern/">modern</a></td>
+	          <td>
+		    
+		    <a href="mailto:adam@nostrum.com"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Adam%20Roach">Adam</a>
+		    
+	          </td>
+	          <td>Managing, Ordering, Distributing, Exposing, &amp; Registering telephone Numbers</td>
+	          <td>
+	            
+		      <a href="/person/Steve%20Donovan">Steve Donovan</a>
+		      <a href="mailto:srdonovan@usdonovans.com"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Tom%20McGarry">Tom McGarry</a>
+		      <a href="mailto:tom.mcgarry@neustar.biz"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/netvc/">netvc</a></td>
+	          <td>
+		    
+		    <a href="mailto:adam@nostrum.com"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Adam%20Roach">Adam</a>
+		    
+	          </td>
+	          <td>Internet Video Codec</td>
+	          <td>
+	            
+		      <a href="/person/Natasha%20Rooney">Natasha Rooney</a>
+		      <a href="mailto:nrooney@gsma.com"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Mo%20Zanaty">Mo Zanaty</a>
+		      <a href="mailto:mzanaty@cisco.com"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/payload/">payload</a></td>
+	          <td>
+		    
+		    <a href="mailto:ben@nostrum.com"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Ben%20Campbell">Ben</a>
+		    
+	          </td>
+	          <td>Audio/Video Transport Payloads</td>
+	          <td>
+	            
+		      <a href="/person/Ali%20C.%20Begen">Ali Begen</a>
+		      <a href="mailto:ali.begen@networked.media"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Roni%20Even">Roni Even</a>
+		      <a href="mailto:roni.even@huawei.com"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/perc/">perc</a></td>
+	          <td>
+		    
+		    <a href="mailto:ben@nostrum.com"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Ben%20Campbell">Ben</a>
+		    
+	          </td>
+	          <td>Privacy Enhanced RTP Conferencing </td>
+	          <td>
+	            
+		      <a href="/person/Suhas%20Nandakumar">Suhas Nandakumar</a>
+		      <a href="mailto:suhasietf@gmail.com"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Nils%20Ohlmeier">Nils Ohlmeier</a>
+		      <a href="mailto:nohlmeier@mozilla.com"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/regext/">regext</a></td>
+	          <td>
+		    
+		    <a href="mailto:adam@nostrum.com"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Adam%20Roach">Adam</a>
+		    
+	          </td>
+	          <td>Registration Protocols Extensions</td>
+	          <td>
+	            
+		      <a href="/person/James%20Galvin">James Galvin</a>
+		      <a href="mailto:galvin@elistx.com"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Antoin%20Verschuren">Antoin Verschuren</a>
+		      <a href="mailto:ietf@antoin.nl"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/rtcweb/">rtcweb</a></td>
+	          <td>
+		    
+		    <a href="mailto:adam@nostrum.com"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Adam%20Roach">Adam</a>
+		    
+	          </td>
+	          <td>Real-Time Communication in WEB-browsers</td>
+	          <td>
+	            
+		      <a href="/person/Ted%20Hardie">Ted Hardie</a>
+		      <a href="mailto:ted.ietf@gmail.com"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Cullen%20Jennings">Cullen Jennings</a>
+		      <a href="mailto:fluffy@iii.ca"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Sean%20Turner">Sean Turner</a>
+		      <a href="mailto:sean+ietf@sn3rd.com"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/sipbrandy/">sipbrandy</a></td>
+	          <td>
+		    
+		    <a href="mailto:ben@nostrum.com"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Ben%20Campbell">Ben</a>
+		    
+	          </td>
+	          <td>SIP Best-practice Recommendations Against Network Dangers to privacY</td>
+	          <td>
+	            
+		      <a href="/person/Gonzalo%20Camarillo">Gonzalo Camarillo</a>
+		      <a href="mailto:gonzalo.camarillo@ericsson.com"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Gonzalo%20Salgueiro">Gonzalo Salgueiro</a>
+		      <a href="mailto:gsalguei@cisco.com"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/sipcore/">sipcore</a></td>
+	          <td>
+		    
+		    <a href="mailto:ben@nostrum.com"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Ben%20Campbell">Ben</a>
+		    
+	          </td>
+	          <td>Session Initiation Protocol Core</td>
+	          <td>
+	            
+		      <a href="/person/Jean%20Mahoney">Jean Mahoney</a>
+		      <a href="mailto:mahoney@nostrum.com"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Brian%20Rosen">Brian Rosen</a>
+		      <a href="mailto:br@brianrosen.net"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/slim/">slim</a></td>
+	          <td>
+		    
+		    <a href="mailto:aamelnikov@fastmail.fm"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Alexey%20Melnikov">Alexey</a>
+		    
+	          </td>
+	          <td>Selection of Language for Internet Media</td>
+	          <td>
+	            
+		      <a href="/person/Dr.%20Bernard%20D.%20Aboba%20Ph.D.">Bernard Aboba</a>
+		      <a href="mailto:Bernard_Aboba@hotmail.com"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/stir/">stir</a></td>
+	          <td>
+		    
+		    <a href="mailto:adam@nostrum.com"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Adam%20Roach">Adam</a>
+		    
+	          </td>
+	          <td>Secure Telephone Identity Revisited</td>
+	          <td>
+	            
+		      <a href="/person/Russ%20Housley">Russ Housley</a>
+		      <a href="mailto:housley@vigilsec.com"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Robert%20Sparks">Robert Sparks</a>
+		      <a href="mailto:rjsparks@nostrum.com"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/uta/">uta</a></td>
+	          <td>
+		    
+		    <a href="mailto:aamelnikov@fastmail.fm"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Alexey%20Melnikov">Alexey</a>
+		    
+	          </td>
+	          <td>Using TLS in Applications</td>
+	          <td>
+	            
+		      <a href="/person/Leif%20Johansson">Leif Johansson</a>
+		      <a href="mailto:leifj@sunet.se"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Valery%20Smyslov">Valery Smyslov</a>
+		      <a href="mailto:valery@smyslov.net"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/xrblock/">xrblock</a></td>
+	          <td>
+		    
+		    <a href="mailto:ben@nostrum.com"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Ben%20Campbell">Ben</a>
+		    
+	          </td>
+	          <td>Metric Blocks for use with RTCP&#39;s Extended Report Framework</td>
+	          <td>
+	            
+		      <a href="/person/Dan%20Romascanu">Dan Romascanu</a>
+		      <a href="mailto:dromasca@gmail.com"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Shida%20Schubert">Shida Schubert</a>
+		      <a href="mailto:shida.at.ietf@gmail.com"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+            </tbody>
+          </table>
+        
+
+        <hr>
+      
+        <h2 class="anchor-target" id="gen">General Area (gen)</h2>
+
+        
+          <h3>gen Area Director (AD)</h3>
+          <ul class="list-unstyled">
+            
+              <li>
+		<a href="mailto:alissa@cooperw.in"><span class="fa fa-envelope-o tiny"></span></a>
+		<a href="/person/Alissa%20Cooper">Alissa Cooper</a>
+	        
+              </li>
+            
+          </ul>
+        
+
+        
+          <h3>gen area-specific web pages</h3>
+          <ul class="list-unstyled">
+            
+              <li><a href="https://trac.ietf.org/trac/gen/report/1">Issue tracker</a></li>
+            
+              <li><a href="https://trac.ietf.org/trac/gen/wiki">Wiki</a></li>
+            
+          </ul>
+        
+
+        
+          <h3>gen active WG</h3>
+          <table class="table table-condensed table-striped tablesorter">
+            <thead>
+	      <tr>
+	        <th>Group</th>
+	        <th>Responsible AD</th>
+	        <th>Name</th>
+	        <th>Chairs</th>
+	      </tr>
+            </thead>
+            <tbody>
+	      
+	        <tr>
+	          <td><a href="/wg/mtgvenue/">mtgvenue</a></td>
+	          <td>
+		    
+		    <a href="mailto:alissa@cooperw.in"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Alissa%20Cooper">Alissa</a>
+		    
+	          </td>
+	          <td>Meeting Venue</td>
+	          <td>
+	            
+		      <a href="/person/Charles%20Eckel">Charles Eckel</a>
+		      <a href="mailto:eckelcu@cisco.com"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Pete%20Resnick">Pete Resnick</a>
+		      <a href="mailto:presnick@qti.qualcomm.com"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+            </tbody>
+          </table>
+        
+
+        <hr>
+      
+        <h2 class="anchor-target" id="int">Internet Area (int)</h2>
+
+        
+          <h3>int Area Directors (ADs)</h3>
+          <ul class="list-unstyled">
+            
+              <li>
+		<a href="mailto:suresh@kaloom.com"><span class="fa fa-envelope-o tiny"></span></a>
+		<a href="/person/Suresh%20Krishnan">Suresh Krishnan</a>
+	        
+              </li>
+            
+              <li>
+		<a href="mailto:terry.manderson@icann.org"><span class="fa fa-envelope-o tiny"></span></a>
+		<a href="/person/Terry%20Manderson">Terry Manderson</a>
+	        
+              </li>
+            
+          </ul>
+        
+
+        
+          <h3>int area-specific web pages</h3>
+          <ul class="list-unstyled">
+            
+              <li><a href="http://trac.tools.ietf.org/area/int/trac/wiki">Internet Area Wiki</a></li>
+            
+              <li><a href="https://trac.ietf.org/trac/int/report/1">Issue tracker</a></li>
+            
+          </ul>
+        
+
+        
+          <h3>int active WGs</h3>
+          <table class="table table-condensed table-striped tablesorter">
+            <thead>
+	      <tr>
+	        <th>Group</th>
+	        <th>Responsible AD</th>
+	        <th>Name</th>
+	        <th>Chairs</th>
+	      </tr>
+            </thead>
+            <tbody>
+	      
+	        <tr>
+	          <td><a href="/wg/6lo/">6lo</a></td>
+	          <td>
+		    
+		    <a href="mailto:suresh@kaloom.com"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Suresh%20Krishnan">Suresh</a>
+		    
+	          </td>
+	          <td>IPv6 over Networks of Resource-constrained Nodes</td>
+	          <td>
+	            
+		      <a href="/person/Samita%20Chakrabarti">Samita Chakrabarti</a>
+		      <a href="mailto:samitac.ietf@gmail.com"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Gabriel%20Montenegro">Gabriel Montenegro</a>
+		      <a href="mailto:Gabriel.Montenegro@microsoft.com"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/6man/">6man</a></td>
+	          <td>
+		    
+		    <a href="mailto:suresh@kaloom.com"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Suresh%20Krishnan">Suresh</a>
+		    
+	          </td>
+	          <td>IPv6 Maintenance</td>
+	          <td>
+	            
+		      <a href="/person/Robert%20M.%20Hinden">Robert Hinden</a>
+		      <a href="mailto:bob.hinden@gmail.com"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Ole%20Troan">Ole Troan</a>
+		      <a href="mailto:otroan@employees.org"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/6tisch/">6tisch</a></td>
+	          <td>
+		    
+		    <a href="mailto:suresh@kaloom.com"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Suresh%20Krishnan">Suresh</a>
+		    
+	          </td>
+	          <td>IPv6 over the TSCH mode of IEEE 802.15.4e</td>
+	          <td>
+	            
+		      <a href="/person/Pascal%20Thubert">Pascal Thubert</a>
+		      <a href="mailto:pthubert@cisco.com"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Thomas%20Watteyne">Thomas Watteyne</a>
+		      <a href="mailto:thomas.watteyne@inria.fr"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/dhc/">dhc</a></td>
+	          <td>
+		    
+		    <a href="mailto:suresh@kaloom.com"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Suresh%20Krishnan">Suresh</a>
+		    
+	          </td>
+	          <td>Dynamic Host Configuration</td>
+	          <td>
+	            
+		      <a href="/person/Tomek%20Mrugalski">Tomek Mrugalski</a>
+		      <a href="mailto:tomasz.mrugalski@gmail.com"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Bernie%20Volz">Bernie Volz</a>
+		      <a href="mailto:volz@cisco.com"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/dmm/">dmm</a></td>
+	          <td>
+		    
+		    <a href="mailto:suresh@kaloom.com"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Suresh%20Krishnan">Suresh</a>
+		    
+	          </td>
+	          <td>Distributed Mobility Management</td>
+	          <td>
+	            
+		      <a href="/person/Sri%20Gundavelli">Sri Gundavelli</a>
+		      <a href="mailto:sgundave@cisco.com"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Dapeng%20Liu">Dapeng Liu</a>
+		      <a href="mailto:maxpassion@gmail.com"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/dnssd/">dnssd</a></td>
+	          <td>
+		    
+		    <a href="mailto:terry.manderson@icann.org"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Terry%20Manderson">Terry</a>
+		    
+	          </td>
+	          <td>Extensions for Scalable DNS Service Discovery </td>
+	          <td>
+	            
+		      <a href="/person/Tim%20Chown">Tim Chown</a>
+		      <a href="mailto:tim.chown@jisc.ac.uk"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/David%20Schinazi">David Schinazi</a>
+		      <a href="mailto:dschinazi@apple.com"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/dprive/">dprive</a></td>
+	          <td>
+		    
+		    <a href="mailto:terry.manderson@icann.org"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Terry%20Manderson">Terry</a>
+		    
+	          </td>
+	          <td>DNS PRIVate Exchange</td>
+	          <td>
+	            
+		      <a href="/person/Brian%20Haberman">Brian Haberman</a>
+		      <a href="mailto:brian@innovationslab.net"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Tim%20Wicinski">Tim Wicinski</a>
+		      <a href="mailto:tjw.ietf@gmail.com"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/hip/">hip</a></td>
+	          <td>
+		    
+		    <a href="mailto:terry.manderson@icann.org"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Terry%20Manderson">Terry</a>
+		    
+	          </td>
+	          <td>Host Identity Protocol</td>
+	          <td>
+	            
+		      <a href="/person/Gonzalo%20Camarillo">Gonzalo Camarillo</a>
+		      <a href="mailto:gonzalo.camarillo@ericsson.com"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/homenet/">homenet</a></td>
+	          <td>
+		    
+		    <a href="mailto:terry.manderson@icann.org"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Terry%20Manderson">Terry</a>
+		    
+	          </td>
+	          <td>Home Networking</td>
+	          <td>
+	            
+		      <a href="/person/Stephen%20Farrell">Stephen Farrell</a>
+		      <a href="mailto:stephen.farrell@cs.tcd.ie"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Barbara%20Stark">Barbara Stark</a>
+		      <a href="mailto:bs7652@att.com"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/intarea/">intarea</a></td>
+	          <td>
+		    
+		    <a href="mailto:suresh@kaloom.com"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Suresh%20Krishnan">Suresh</a>
+		    
+	          </td>
+	          <td>Internet Area Working Group</td>
+	          <td>
+	            
+		      <a href="/person/Wassim%20Haddad">Wassim Haddad</a>
+		      <a href="mailto:Wassim.Haddad@ericsson.com"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Juan-Carlos%20Z%C3%BA%C3%B1iga">Juan-Carlos Zúñiga</a>
+		      <a href="mailto:juancarlos.zuniga@sigfox.com"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/ipwave/">ipwave</a></td>
+	          <td>
+		    
+		    <a href="mailto:suresh@kaloom.com"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Suresh%20Krishnan">Suresh</a>
+		    
+	          </td>
+	          <td>IP Wireless Access in Vehicular Environments</td>
+	          <td>
+	            
+		      <a href="/person/Carlos%20J%C3%A9sus%20Bernardos">Carlos Bernardos</a>
+		      <a href="mailto:cjbc@it.uc3m.es"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Russ%20Housley">Russ Housley</a>
+		      <a href="mailto:housley@vigilsec.com"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/lpwan/">lpwan</a></td>
+	          <td>
+		    
+		    <a href="mailto:suresh@kaloom.com"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Suresh%20Krishnan">Suresh</a>
+		    
+	          </td>
+	          <td>IPv6 over Low Power Wide-Area Networks</td>
+	          <td>
+	            
+		      <a href="/person/Alexander%20Pelov">Alexander Pelov</a>
+		      <a href="mailto:a@ackl.io"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Pascal%20Thubert">Pascal Thubert</a>
+		      <a href="mailto:pthubert@cisco.com"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/lwig/">lwig</a></td>
+	          <td>
+		    
+		    <a href="mailto:suresh@kaloom.com"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Suresh%20Krishnan">Suresh</a>
+		    
+	          </td>
+	          <td>Light-Weight Implementation Guidance</td>
+	          <td>
+	            
+		      <a href="/person/Zhen%20Cao">Zhen Cao</a>
+		      <a href="mailto:zhencao.ietf@gmail.com"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Mohit%20Sethi">Mohit Sethi</a>
+		      <a href="mailto:mohit.m.sethi@ericsson.com"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/ntp/">ntp</a></td>
+	          <td>
+		    
+		    <a href="mailto:suresh@kaloom.com"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Suresh%20Krishnan">Suresh</a>
+		    
+	          </td>
+	          <td>Network Time Protocol</td>
+	          <td>
+	            
+		      <a href="/person/Karen%20O&#39;Donoghue">Karen O&#39;Donoghue</a>
+		      <a href="mailto:odonoghue@isoc.org"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Dieter%20Sibold">Dieter Sibold</a>
+		      <a href="mailto:dieter.sibold@ptb.de"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/savi/">savi</a></td>
+	          <td>
+		    
+		    <a href="mailto:suresh@kaloom.com"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Suresh%20Krishnan">Suresh</a>
+		    
+	          </td>
+	          <td>Source Address Validation Improvements</td>
+	          <td>
+	            
+		      <a href="/person/Jean-Michel%20Combes">Jean-Michel Combes</a>
+		      <a href="mailto:jeanmichel.combes@gmail.com"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/softwire/">softwire</a></td>
+	          <td>
+		    
+		    <a href="mailto:terry.manderson@icann.org"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Terry%20Manderson">Terry</a>
+		    
+	          </td>
+	          <td>Softwires</td>
+	          <td>
+	            
+		      <a href="/person/Yong%20Cui">Yong Cui</a>
+		      <a href="mailto:cuiyong@tsinghua.edu.cn"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Ian%20Farrer">Ian Farrer</a>
+		      <a href="mailto:ianfarrer@gmx.com"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/sunset4/">sunset4</a></td>
+	          <td>
+		    
+		    <a href="mailto:terry.manderson@icann.org"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Terry%20Manderson">Terry</a>
+		    
+	          </td>
+	          <td>Sunsetting IPv4</td>
+	          <td>
+	            
+		      <a href="/person/Marc%20Blanchet">Marc Blanchet</a>
+		      <a href="mailto:Marc.Blanchet@viagenie.ca"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Wesley%20George">Wesley George</a>
+		      <a href="mailto:wesgeorge@puck.nether.net"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/tictoc/">tictoc</a></td>
+	          <td>
+		    
+		    <a href="mailto:suresh@kaloom.com"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Suresh%20Krishnan">Suresh</a>
+		    
+	          </td>
+	          <td>Timing over IP Connection and Transfer of Clock</td>
+	          <td>
+	            
+		      <a href="/person/Karen%20O&#39;Donoghue">Karen O&#39;Donoghue</a>
+		      <a href="mailto:odonoghue@isoc.org"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Yaakov%20Stein">Yaakov Stein</a>
+		      <a href="mailto:yaakov_s@rad.com"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+            </tbody>
+          </table>
+        
+
+        <hr>
+      
+        <h2 class="anchor-target" id="ops">Operations and Management Area (ops)</h2>
+
+        
+          <h3>ops Area Directors (ADs)</h3>
+          <ul class="list-unstyled">
+            
+              <li>
+		<a href="mailto:bclaise@cisco.com"><span class="fa fa-envelope-o tiny"></span></a>
+		<a href="/person/Benoit%20Claise">Benoit Claise</a>
+	        
+              </li>
+            
+              <li>
+		<a href="mailto:warren@kumari.net"><span class="fa fa-envelope-o tiny"></span></a>
+		<a href="/person/Warren%20Kumari">Warren Kumari</a>
+	        
+              </li>
+            
+              <li>
+		<a href="mailto:ibagdona@gmail.com"><span class="fa fa-envelope-o tiny"></span></a>
+		<a href="/person/Ignas%20Bagdonas">Ignas Bagdonas</a>
+	        
+              </li>
+            
+          </ul>
+        
+
+        
+          <h3>ops area-specific web pages</h3>
+          <ul class="list-unstyled">
+            
+              <li><a href="https://trac.ietf.org/trac/ops/report/1">Issue tracker</a></li>
+            
+              <li><a href="https://www.ietf.org/mailman/listinfo/ops-area">O&amp;M Area Mailing List</a></li>
+            
+              <li><a href="https://svn.tools.ietf.org/area/ops/trac/wiki/">O&amp;M Area Wiki Page</a></li>
+            
+          </ul>
+        
+
+        
+          <h3>ops active WGs</h3>
+          <table class="table table-condensed table-striped tablesorter">
+            <thead>
+	      <tr>
+	        <th>Group</th>
+	        <th>Responsible AD</th>
+	        <th>Name</th>
+	        <th>Chairs</th>
+	      </tr>
+            </thead>
+            <tbody>
+	      
+	        <tr>
+	          <td><a href="/wg/anima/">anima</a></td>
+	          <td>
+		    
+		    <a href="mailto:bclaise@cisco.com"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Benoit%20Claise">Benoit</a>
+		    
+	          </td>
+	          <td>Autonomic Networking Integrated Model and Approach</td>
+	          <td>
+	            
+		      <a href="/person/Toerless%20Eckert">Toerless Eckert</a>
+		      <a href="mailto:tte+anima@cs.fau.de"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Sheng%20Jiang">Sheng Jiang</a>
+		      <a href="mailto:jiangsheng@huawei.com"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/bmwg/">bmwg</a></td>
+	          <td>
+		    
+		    <a href="mailto:warren@kumari.net"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Warren%20Kumari">Warren</a>
+		    
+	          </td>
+	          <td>Benchmarking Methodology</td>
+	          <td>
+	            
+		      <a href="/person/Sarah%20Banks">Sarah Banks</a>
+		      <a href="mailto:sbanks@encrypted.net"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Al%20Morton">Al Morton</a>
+		      <a href="mailto:acmorton@att.com"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/dime/">dime</a></td>
+	          <td>
+		    
+		    <a href="mailto:ben@nostrum.com"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Ben%20Campbell">Ben</a>
+		    
+	          </td>
+	          <td>Diameter Maintenance and Extensions</td>
+	          <td>
+	            
+		      <a href="/person/Jouni%20Korhonen">Jouni Korhonen</a>
+		      <a href="mailto:jouni.nospam@gmail.com"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Lionel%20Morand">Lionel Morand</a>
+		      <a href="mailto:lionel.morand@orange.com"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    (Assigned AD: <a href="mailto:ben@nostrum.com">Ben Campbell</a>)
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/dnsop/">dnsop</a></td>
+	          <td>
+		    
+		    <a href="mailto:warren@kumari.net"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Warren%20Kumari">Warren</a>
+		    
+	          </td>
+	          <td>Domain Name System Operations</td>
+	          <td>
+	            
+		      <a href="/person/Tim%20Wicinski">Tim Wicinski</a>
+		      <a href="mailto:tjw.ietf@gmail.com"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Suzanne%20Woolf">Suzanne Woolf</a>
+		      <a href="mailto:suzworldwide@gmail.com"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/grow/">grow</a></td>
+	          <td>
+		    
+		    <a href="mailto:warren@kumari.net"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Warren%20Kumari">Warren</a>
+		    
+	          </td>
+	          <td>Global Routing Operations</td>
+	          <td>
+	            
+		      <a href="/person/Christopher%20Morrow">Christopher Morrow</a>
+		      <a href="mailto:christopher.morrow@gmail.com"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Peter%20Schoenmaker">Peter Schoenmaker</a>
+		      <a href="mailto:pds@lugs.com"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Job%20Snijders">Job Snijders</a>
+		      <a href="mailto:job@ntt.net"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/l2sm/">l2sm</a></td>
+	          <td>
+		    
+		    <a href="mailto:bclaise@cisco.com"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Benoit%20Claise">Benoit</a>
+		    
+	          </td>
+	          <td>L2VPN Service Model</td>
+	          <td>
+	            
+		      <a href="/person/Adrian%20Farrel">Adrian Farrel</a>
+		      <a href="mailto:adrian@olddog.co.uk"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Qin%20Wu">Qin Wu</a>
+		      <a href="mailto:bill.wu@huawei.com"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/mboned/">mboned</a></td>
+	          <td>
+		    
+		    <a href="mailto:warren@kumari.net"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Warren%20Kumari">Warren</a>
+		    
+	          </td>
+	          <td>MBONE Deployment</td>
+	          <td>
+	            
+		      <a href="/person/Leonard%20Giuliano">Leonard Giuliano</a>
+		      <a href="mailto:lenny@juniper.net"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Greg%20Shepherd">Greg Shepherd</a>
+		      <a href="mailto:gjshep@gmail.com"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/netconf/">netconf</a></td>
+	          <td>
+		    
+		    <a href="mailto:bclaise@cisco.com"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Benoit%20Claise">Benoit</a>
+		    
+	          </td>
+	          <td>Network Configuration</td>
+	          <td>
+	            
+		      <a href="/person/Mahesh%20Jethanandani">Mahesh Jethanandani</a>
+		      <a href="mailto:mjethanandani@gmail.com"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Kent%20Watsen">Kent Watsen</a>
+		      <a href="mailto:kwatsen@juniper.net"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/netmod/">netmod</a></td>
+	          <td>
+		    
+		    <a href="mailto:bclaise@cisco.com"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Benoit%20Claise">Benoit</a>
+		    
+	          </td>
+	          <td>Network Modeling</td>
+	          <td>
+	            
+		      <a href="/person/Lou%20Berger">Lou Berger</a>
+		      <a href="mailto:lberger@labn.net"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Joel%20Jaeggli">Joel Jaeggli</a>
+		      <a href="mailto:joelja@bogus.com"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Kent%20Watsen">Kent Watsen</a>
+		      <a href="mailto:kwatsen@juniper.net"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/opsawg/">opsawg</a></td>
+	          <td>
+		    
+		    <a href="mailto:warren@kumari.net"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Warren%20Kumari">Warren</a>
+		    
+	          </td>
+	          <td>Operations and Management Area Working Group</td>
+	          <td>
+	            
+		      <a href="/person/Ignas%20Bagdonas">Ignas Bagdonas</a>
+		      <a href="mailto:ibagdona@gmail.com"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Joe%20Clarke">Joe Clarke</a>
+		      <a href="mailto:jclarke@cisco.com"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Tianran%20Zhou">Tianran Zhou</a>
+		      <a href="mailto:zhoutianran@huawei.com"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/opsec/">opsec</a></td>
+	          <td>
+		    
+		    <a href="mailto:warren@kumari.net"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Warren%20Kumari">Warren</a>
+		    
+	          </td>
+	          <td>Operational Security Capabilities for IP Network Infrastructure</td>
+	          <td>
+	            
+		      <a href="/person/Ron%20Bonica">Ron Bonica</a>
+		      <a href="mailto:rbonica@juniper.net"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Gunter%20Van%20de%20Velde">Gunter Van de Velde</a>
+		      <a href="mailto:gunter@vandevelde.cc"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/%C3%89ric%20Vyncke">Éric Vyncke</a>
+		      <a href="mailto:evyncke@cisco.com"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/radext/">radext</a></td>
+	          <td>
+		    
+		    <a href="mailto:Kathleen.Moriarty.ietf@gmail.com"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Kathleen%20Moriarty">Kathleen</a>
+		    
+	          </td>
+	          <td>RADIUS EXTensions</td>
+	          <td>
+	            
+		      <a href="/person/Lionel%20Morand">Lionel Morand</a>
+		      <a href="mailto:lionel.morand@orange.com"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Stefan%20Winter">Stefan Winter</a>
+		      <a href="mailto:stefan.winter@restena.lu"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    (Assigned AD: <a href="mailto:Kathleen.Moriarty.ietf@gmail.com">Kathleen Moriarty</a>)
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/sidrops/">sidrops</a></td>
+	          <td>
+		    
+		    <a href="mailto:warren@kumari.net"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Warren%20Kumari">Warren</a>
+		    
+	          </td>
+	          <td>SIDR Operations</td>
+	          <td>
+	            
+		      <a href="/person/Chris%20Morrow">Chris Morrow</a>
+		      <a href="mailto:morrowc@ops-netman.net"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Keyur%20Patel">Keyur Patel</a>
+		      <a href="mailto:keyur@arrcus.com"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/v6ops/">v6ops</a></td>
+	          <td>
+		    
+		    <a href="mailto:warren@kumari.net"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Warren%20Kumari">Warren</a>
+		    
+	          </td>
+	          <td>IPv6 Operations</td>
+	          <td>
+	            
+		      <a href="/person/Fred%20Baker">Fred Baker</a>
+		      <a href="mailto:fredbaker.ietf@gmail.com"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Ron%20Bonica">Ron Bonica</a>
+		      <a href="mailto:rbonica@juniper.net"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Lee%20Howard">Lee Howard</a>
+		      <a href="mailto:lee@asgard.org"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+            </tbody>
+          </table>
+        
+
+        <hr>
+      
+        <h2 class="anchor-target" id="rtg">Routing Area (rtg)</h2>
+
+        
+          <h3>rtg Area Directors (ADs)</h3>
+          <ul class="list-unstyled">
+            
+              <li>
+		<a href="mailto:akatlas@gmail.com"><span class="fa fa-envelope-o tiny"></span></a>
+		<a href="/person/Alia%20Atlas">Alia Atlas</a>
+	        
+              </li>
+            
+              <li>
+		<a href="mailto:db3546@att.com"><span class="fa fa-envelope-o tiny"></span></a>
+		<a href="/person/Deborah%20Brungard">Deborah Brungard</a>
+	        
+              </li>
+            
+              <li>
+		<a href="mailto:aretana.ietf@gmail.com"><span class="fa fa-envelope-o tiny"></span></a>
+		<a href="/person/Alvaro%20Retana">Alvaro Retana</a>
+	        
+              </li>
+            
+              <li>
+		<a href="mailto:martin.vigoureux@nokia.com"><span class="fa fa-envelope-o tiny"></span></a>
+		<a href="/person/Martin%20Vigoureux">Martin Vigoureux</a>
+	        
+              </li>
+            
+          </ul>
+        
+
+        
+          <h3>rtg area-specific web pages</h3>
+          <ul class="list-unstyled">
+            
+              <li><a href="https://trac.ietf.org/trac/rtg/report/1">Issue tracker</a></li>
+            
+              <li><a href="http://trac.tools.ietf.org/area/rtg/trac/wiki/">Routing Area Web Page</a></li>
+            
+              <li><a href="https://trac.ietf.org/trac/rtg/wiki">Wiki</a></li>
+            
+          </ul>
+        
+
+        
+          <h3>rtg active WGs</h3>
+          <table class="table table-condensed table-striped tablesorter">
+            <thead>
+	      <tr>
+	        <th>Group</th>
+	        <th>Responsible AD</th>
+	        <th>Name</th>
+	        <th>Chairs</th>
+	      </tr>
+            </thead>
+            <tbody>
+	      
+	        <tr>
+	          <td><a href="/wg/babel/">babel</a></td>
+	          <td>
+		    
+		    <a href="mailto:akatlas@gmail.com"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Alia%20Atlas">Alia</a>
+		    
+	          </td>
+	          <td>Babel routing protocol</td>
+	          <td>
+	            
+		      <a href="/person/Donald%20E.%20Eastlake%203rd">Donald Eastlake</a>
+		      <a href="mailto:d3e3e3@gmail.com"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Russ%20White">Russ White</a>
+		      <a href="mailto:russ@riw.us"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/bess/">bess</a></td>
+	          <td>
+		    
+		    <a href="mailto:aretana.ietf@gmail.com"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Alvaro%20Retana">Alvaro</a>
+		    
+	          </td>
+	          <td>BGP Enabled ServiceS</td>
+	          <td>
+	            
+		      <a href="/person/Matthew%20Bocci">Matthew Bocci</a>
+		      <a href="mailto:matthew.bocci@nokia.com"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Stephane%20Litkowski">Stephane Litkowski</a>
+		      <a href="mailto:stephane.litkowski@orange.com"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Martin%20Vigoureux">Martin Vigoureux</a>
+		      <a href="mailto:martin.vigoureux@nokia.com"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/bfd/">bfd</a></td>
+	          <td>
+		    
+		    <a href="mailto:aretana.ietf@gmail.com"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Alvaro%20Retana">Alvaro</a>
+		    
+	          </td>
+	          <td>Bidirectional Forwarding Detection</td>
+	          <td>
+	            
+		      <a href="/person/Jeffrey%20Haas">Jeffrey Haas</a>
+		      <a href="mailto:jhaas@pfrc.org"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Reshad%20Rahman">Reshad Rahman</a>
+		      <a href="mailto:rrahman@cisco.com"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/bier/">bier</a></td>
+	          <td>
+		    
+		    <a href="mailto:akatlas@gmail.com"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Alia%20Atlas">Alia</a>
+		    
+	          </td>
+	          <td>Bit Indexed Explicit Replication</td>
+	          <td>
+	            
+		      <a href="/person/Tony%20Przygienda">Tony Przygienda</a>
+		      <a href="mailto:prz@juniper.net"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Greg%20Shepherd">Greg Shepherd</a>
+		      <a href="mailto:gjshep@gmail.com"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/ccamp/">ccamp</a></td>
+	          <td>
+		    
+		    <a href="mailto:db3546@att.com"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Deborah%20Brungard">Deborah</a>
+		    
+	          </td>
+	          <td>Common Control and Measurement Plane</td>
+	          <td>
+	            
+		      <a href="/person/Daniele%20Ceccarelli">Daniele Ceccarelli</a>
+		      <a href="mailto:daniele.ceccarelli@ericsson.com"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Fatai%20Zhang">Fatai Zhang</a>
+		      <a href="mailto:zhangfatai@huawei.com"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/detnet/">detnet</a></td>
+	          <td>
+		    
+		    <a href="mailto:db3546@att.com"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Deborah%20Brungard">Deborah</a>
+		    
+	          </td>
+	          <td>Deterministic Networking</td>
+	          <td>
+	            
+		      <a href="/person/Lou%20Berger">Lou Berger</a>
+		      <a href="mailto:lberger@labn.net"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Janos%20Farkas">Janos Farkas</a>
+		      <a href="mailto:janos.farkas@ericsson.com"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Patricia%20Thaler">Patricia Thaler</a>
+		      <a href="mailto:pat.thaler@broadcom.com"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/i2rs/">i2rs</a></td>
+	          <td>
+		    
+		    <a href="mailto:akatlas@gmail.com"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Alia%20Atlas">Alia</a>
+		    
+	          </td>
+	          <td>Interface to the Routing System</td>
+	          <td>
+	            
+		      <a href="/person/Susan%20Hares">Susan Hares</a>
+		      <a href="mailto:shares@ndzh.com"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Russ%20White">Russ White</a>
+		      <a href="mailto:russ@riw.us"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/idr/">idr</a></td>
+	          <td>
+		    
+		    <a href="mailto:aretana.ietf@gmail.com"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Alvaro%20Retana">Alvaro</a>
+		    
+	          </td>
+	          <td>Inter-Domain Routing</td>
+	          <td>
+	            
+		      <a href="/person/Susan%20Hares">Susan Hares</a>
+		      <a href="mailto:shares@ndzh.com"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/John%20Scudder">John Scudder</a>
+		      <a href="mailto:jgs@juniper.net"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/l2tpext/">l2tpext</a></td>
+	          <td>
+		    
+		    <a href="mailto:db3546@att.com"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Deborah%20Brungard">Deborah</a>
+		    
+	          </td>
+	          <td>Layer Two Tunneling Protocol Extensions</td>
+	          <td>
+	            
+		      <a href="/person/Ignacio%20Goyret">Ignacio Goyret</a>
+		      <a href="mailto:ignacio.goyret@nokia.com"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Carlos%20Pignataro">Carlos Pignataro</a>
+		      <a href="mailto:cpignata@cisco.com"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/lisp/">lisp</a></td>
+	          <td>
+		    
+		    <a href="mailto:db3546@att.com"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Deborah%20Brungard">Deborah</a>
+		    
+	          </td>
+	          <td>Locator/ID Separation Protocol</td>
+	          <td>
+	            
+		      <a href="/person/Joel%20M.%20Halpern">Joel Halpern</a>
+		      <a href="mailto:jmh@joelhalpern.com"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Luigi%20Iannone">Luigi Iannone</a>
+		      <a href="mailto:ggx@gigix.net"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/lsr/">lsr</a></td>
+	          <td>
+		    
+		    <a href="mailto:akatlas@gmail.com"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Alia%20Atlas">Alia</a>
+		    
+	          </td>
+	          <td>Link State Routing</td>
+	          <td>
+	            
+		      <a href="/person/Christian%20Hopps">Christian Hopps</a>
+		      <a href="mailto:chopps@chopps.org"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Acee%20Lindem">Acee Lindem</a>
+		      <a href="mailto:acee@cisco.com"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/lsvr/">lsvr</a></td>
+	          <td>
+		    
+		    <a href="mailto:aretana.ietf@gmail.com"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Alvaro%20Retana">Alvaro</a>
+		    
+	          </td>
+	          <td>Link State Vector Routing</td>
+	          <td>
+	            
+		      <a href="/person/Victor%20Kuarsingh">Victor Kuarsingh</a>
+		      <a href="mailto:victor@jvknet.com"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Gunter%20Van%20de%20Velde">Gunter Van de Velde</a>
+		      <a href="mailto:gunter.van_de_velde@nokia.com"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/manet/">manet</a></td>
+	          <td>
+		    
+		    <a href="mailto:aretana.ietf@gmail.com"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Alvaro%20Retana">Alvaro</a>
+		    
+	          </td>
+	          <td>Mobile Ad-hoc Networks</td>
+	          <td>
+	            
+		      <a href="/person/Justin%20Dean">Justin Dean</a>
+		      <a href="mailto:bebemaster@gmail.com"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Stan%20Ratliff">Stan Ratliff</a>
+		      <a href="mailto:sratliff@idirect.net"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/mpls/">mpls</a></td>
+	          <td>
+		    
+		    <a href="mailto:db3546@att.com"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Deborah%20Brungard">Deborah</a>
+		    
+	          </td>
+	          <td>Multiprotocol Label Switching</td>
+	          <td>
+	            
+		      <a href="/person/Loa%20Andersson">Loa Andersson</a>
+		      <a href="mailto:loa@pi.nu"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Nicolai%20Leymann">Nicolai Leymann</a>
+		      <a href="mailto:n.leymann@telekom.de"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/George%20Swallow">George Swallow</a>
+		      <a href="mailto:swallow.ietf@gmail.com"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/nvo3/">nvo3</a></td>
+	          <td>
+		    
+		    <a href="mailto:akatlas@gmail.com"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Alia%20Atlas">Alia</a>
+		    
+	          </td>
+	          <td>Network Virtualization Overlays</td>
+	          <td>
+	            
+		      <a href="/person/Sam%20Aldrin">Sam Aldrin</a>
+		      <a href="mailto:aldrin.ietf@gmail.com"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Matthew%20Bocci">Matthew Bocci</a>
+		      <a href="mailto:matthew.bocci@nokia.com"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/pals/">pals</a></td>
+	          <td>
+		    
+		    <a href="mailto:db3546@att.com"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Deborah%20Brungard">Deborah</a>
+		    
+	          </td>
+	          <td>Pseudowire And LDP-enabled Services</td>
+	          <td>
+	            
+		      <a href="/person/Stewart%20Bryant">Stewart Bryant</a>
+		      <a href="mailto:stewart.bryant@gmail.com"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Andrew%20G.%20Malis">Andrew Malis</a>
+		      <a href="mailto:agmalis@gmail.com"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/pce/">pce</a></td>
+	          <td>
+		    
+		    <a href="mailto:db3546@att.com"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Deborah%20Brungard">Deborah</a>
+		    
+	          </td>
+	          <td>Path Computation Element</td>
+	          <td>
+	            
+		      <a href="/person/Jonathan%20Hardwick">Jonathan Hardwick</a>
+		      <a href="mailto:jonathan.hardwick@metaswitch.com"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Julien%20Meuric">Julien Meuric</a>
+		      <a href="mailto:julien.meuric@orange.com"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/pim/">pim</a></td>
+	          <td>
+		    
+		    <a href="mailto:aretana.ietf@gmail.com"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Alvaro%20Retana">Alvaro</a>
+		    
+	          </td>
+	          <td>Protocols for IP Multicast</td>
+	          <td>
+	            
+		      <a href="/person/Mike%20McBride">Mike McBride</a>
+		      <a href="mailto:mmcbride7@gmail.com"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Stig%20Venaas">Stig Venaas</a>
+		      <a href="mailto:stig@venaas.com"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/rift/">rift</a></td>
+	          <td>
+		    
+		    <a href="mailto:aretana.ietf@gmail.com"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Alvaro%20Retana">Alvaro</a>
+		    
+	          </td>
+	          <td>Routing In Fat Trees</td>
+	          <td>
+	            
+		      <a href="/person/Jeff%20Tantsura">Jeff Tantsura</a>
+		      <a href="mailto:jefftant.ietf@gmail.com"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Zhaohui%20(Jeffrey)%20Zhang">Zhaohui Zhang</a>
+		      <a href="mailto:zzhang@juniper.net"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/roll/">roll</a></td>
+	          <td>
+		    
+		    <a href="mailto:aretana.ietf@gmail.com"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Alvaro%20Retana">Alvaro</a>
+		    
+	          </td>
+	          <td>Routing Over Low power and Lossy networks</td>
+	          <td>
+	            
+		      <a href="/person/Ines%20Robles">Ines Robles</a>
+		      <a href="mailto:maria.ines.robles@ericsson.com"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Peter%20Van%20der%20Stok">Peter Van der Stok</a>
+		      <a href="mailto:consultancy@vanderstok.org"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/rtgwg/">rtgwg</a></td>
+	          <td>
+		    
+		    <a href="mailto:akatlas@gmail.com"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Alia%20Atlas">Alia</a>
+		    
+	          </td>
+	          <td>Routing Area Working Group</td>
+	          <td>
+	            
+		      <a href="/person/Chris%20Bowers">Chris Bowers</a>
+		      <a href="mailto:chrisbowers.ietf@gmail.com"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Jeff%20Tantsura">Jeff Tantsura</a>
+		      <a href="mailto:jefftant.ietf@gmail.com"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/sfc/">sfc</a></td>
+	          <td>
+		    
+		    <a href="mailto:akatlas@gmail.com"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Alia%20Atlas">Alia</a>
+		    
+	          </td>
+	          <td>Service Function Chaining</td>
+	          <td>
+	            
+		      <a href="/person/Jim%20Guichard">Jim Guichard</a>
+		      <a href="mailto:james.n.guichard@huawei.com"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Joel%20M.%20Halpern">Joel Halpern</a>
+		      <a href="mailto:jmh@joelhalpern.com"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/sidr/">sidr</a></td>
+	          <td>
+		    
+		    <a href="mailto:aretana.ietf@gmail.com"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Alvaro%20Retana">Alvaro</a>
+		    
+	          </td>
+	          <td>Secure Inter-Domain Routing</td>
+	          <td>
+	            
+		      <a href="/person/Chris%20Morrow">Chris Morrow</a>
+		      <a href="mailto:morrowc@ops-netman.net"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Sandra%20L.%20Murphy">Sandra Murphy</a>
+		      <a href="mailto:sandy@tislabs.com"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/spring/">spring</a></td>
+	          <td>
+		    
+		    <a href="mailto:aretana.ietf@gmail.com"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Alvaro%20Retana">Alvaro</a>
+		    
+	          </td>
+	          <td>Source Packet Routing in Networking</td>
+	          <td>
+	            
+		      <a href="/person/Bruno%20Decraene">Bruno Decraene</a>
+		      <a href="mailto:bruno.decraene@orange.com"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Rob%20Shakir">Rob Shakir</a>
+		      <a href="mailto:robjs@google.com"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Martin%20Vigoureux">Martin Vigoureux</a>
+		      <a href="mailto:martin.vigoureux@nokia.com"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/teas/">teas</a></td>
+	          <td>
+		    
+		    <a href="mailto:db3546@att.com"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Deborah%20Brungard">Deborah</a>
+		    
+	          </td>
+	          <td>Traffic Engineering Architecture and Signaling</td>
+	          <td>
+	            
+		      <a href="/person/Vishnu%20Pavan%20Beeram">Vishnu Beeram</a>
+		      <a href="mailto:vbeeram@juniper.net"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Lou%20Berger">Lou Berger</a>
+		      <a href="mailto:lberger@labn.net"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/trill/">trill</a></td>
+	          <td>
+		    
+		    <a href="mailto:akatlas@gmail.com"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Alia%20Atlas">Alia</a>
+		    
+	          </td>
+	          <td>Transparent Interconnection of Lots of Links</td>
+	          <td>
+	            
+		      <a href="/person/Susan%20Hares">Susan Hares</a>
+		      <a href="mailto:shares@ndzh.com"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Jon%20Hudson">Jon Hudson</a>
+		      <a href="mailto:jon.hudson@gmail.com"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+            </tbody>
+          </table>
+        
+
+        <hr>
+      
+        <h2 class="anchor-target" id="sec">Security Area (sec)</h2>
+
+        
+          <h3>sec Area Directors (ADs)</h3>
+          <ul class="list-unstyled">
+            
+              <li>
+		<a href="mailto:Kathleen.Moriarty.ietf@gmail.com"><span class="fa fa-envelope-o tiny"></span></a>
+		<a href="/person/Kathleen%20Moriarty">Kathleen Moriarty</a>
+	        
+              </li>
+            
+              <li>
+		<a href="mailto:ekr@rtfm.com"><span class="fa fa-envelope-o tiny"></span></a>
+		<a href="/person/Eric%20Rescorla">Eric Rescorla</a>
+	        
+              </li>
+            
+              <li>
+		<a href="mailto:kaduk@mit.edu"><span class="fa fa-envelope-o tiny"></span></a>
+		<a href="/person/Benjamin%20Kaduk">Benjamin Kaduk</a>
+	        
+              </li>
+            
+          </ul>
+        
+
+        
+          <h3>sec area-specific web pages</h3>
+          <ul class="list-unstyled">
+            
+              <li><a href="https://trac.ietf.org/trac/sec/report/1">Issue tracker</a></li>
+            
+              <li><a href="http://tools.ietf.org/area/sec/trac/wiki ">Security Area Web Page</a></li>
+            
+              <li><a href="https://trac.ietf.org/trac/sec/wiki">Wiki</a></li>
+            
+          </ul>
+        
+
+        
+          <h3>sec active WGs</h3>
+          <table class="table table-condensed table-striped tablesorter">
+            <thead>
+	      <tr>
+	        <th>Group</th>
+	        <th>Responsible AD</th>
+	        <th>Name</th>
+	        <th>Chairs</th>
+	      </tr>
+            </thead>
+            <tbody>
+	      
+	        <tr>
+	          <td><a href="/wg/ace/">ace</a></td>
+	          <td>
+		    
+		    <a href="mailto:Kathleen.Moriarty.ietf@gmail.com"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Kathleen%20Moriarty">Kathleen</a>
+		    
+	          </td>
+	          <td>Authentication and Authorization for Constrained Environments</td>
+	          <td>
+	            
+		      <a href="/person/Benjamin%20Kaduk">Benjamin Kaduk</a>
+		      <a href="mailto:kaduk@mit.edu"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Jim%20Schaad">Jim Schaad</a>
+		      <a href="mailto:ietf@augustcellars.com"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/acme/">acme</a></td>
+	          <td>
+		    
+		    <a href="mailto:Kathleen.Moriarty.ietf@gmail.com"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Kathleen%20Moriarty">Kathleen</a>
+		    
+	          </td>
+	          <td>Automated Certificate Management Environment</td>
+	          <td>
+	            
+		      <a href="/person/Yoav%20Nir">Yoav Nir</a>
+		      <a href="mailto:ynir.ietf@gmail.com"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Rich%20Salz">Rich Salz</a>
+		      <a href="mailto:rsalz@akamai.com"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/curdle/">curdle</a></td>
+	          <td>
+		    
+		    <a href="mailto:ekr@rtfm.com"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Eric%20Rescorla">Eric</a>
+		    
+	          </td>
+	          <td>CURves, Deprecating and a Little more Encryption</td>
+	          <td>
+	            
+		      <a href="/person/Daniel%20Migault">Daniel Migault</a>
+		      <a href="mailto:daniel.migault@ericsson.com"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Rich%20Salz">Rich Salz</a>
+		      <a href="mailto:rsalz@akamai.com"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/dots/">dots</a></td>
+	          <td>
+		    
+		    <a href="mailto:Kathleen.Moriarty.ietf@gmail.com"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Kathleen%20Moriarty">Kathleen</a>
+		    
+	          </td>
+	          <td>DDoS Open Threat Signaling</td>
+	          <td>
+	            
+		      <a href="/person/Roman%20Danyliw">Roman Danyliw</a>
+		      <a href="mailto:rdd@cert.org"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Tobias%20Gondrom">Tobias Gondrom</a>
+		      <a href="mailto:tobias.gondrom@gondrom.org"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/emu/">emu</a></td>
+	          <td>
+		    
+		    <a href="mailto:Kathleen.Moriarty.ietf@gmail.com"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Kathleen%20Moriarty">Kathleen</a>
+		    
+	          </td>
+	          <td>EAP Method Update</td>
+	          <td>
+	            
+		      <a href="/person/Joseph%20A.%20Salowey">Joseph Salowey</a>
+		      <a href="mailto:joe@salowey.net"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/i2nsf/">i2nsf</a></td>
+	          <td>
+		    
+		    <a href="mailto:Kathleen.Moriarty.ietf@gmail.com"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Kathleen%20Moriarty">Kathleen</a>
+		    
+	          </td>
+	          <td>Interface to Network Security Functions</td>
+	          <td>
+	            
+		      <a href="/person/Linda%20Dunbar">Linda Dunbar</a>
+		      <a href="mailto:Linda.dunbar@huawei.com"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Yoav%20Nir">Yoav Nir</a>
+		      <a href="mailto:ynir.ietf@gmail.com"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/ipsecme/">ipsecme</a></td>
+	          <td>
+		    
+		    <a href="mailto:ekr@rtfm.com"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Eric%20Rescorla">Eric</a>
+		    
+	          </td>
+	          <td>IP Security Maintenance and Extensions</td>
+	          <td>
+	            
+		      <a href="/person/Tero%20Kivinen">Tero Kivinen</a>
+		      <a href="mailto:kivinen@iki.fi"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/David%20Waltermire">David Waltermire</a>
+		      <a href="mailto:david.waltermire@nist.gov"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/kitten/">kitten</a></td>
+	          <td>
+		    
+		    <a href="mailto:ekr@rtfm.com"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Eric%20Rescorla">Eric</a>
+		    
+	          </td>
+	          <td>Common Authentication Technology Next Generation</td>
+	          <td>
+	            
+		      <a href="/person/Benjamin%20Kaduk">Benjamin Kaduk</a>
+		      <a href="mailto:kaduk@mit.edu"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Matthew%20A.%20Miller">Matthew Miller</a>
+		      <a href="mailto:linuxwolf+ietf@outer-planes.net"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/lamps/">lamps</a></td>
+	          <td>
+		    
+		    <a href="mailto:ekr@rtfm.com"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Eric%20Rescorla">Eric</a>
+		    
+	          </td>
+	          <td>Limited Additional Mechanisms for PKIX and SMIME</td>
+	          <td>
+	            
+		      <a href="/person/Russ%20Housley">Russ Housley</a>
+		      <a href="mailto:housley@vigilsec.com"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/mile/">mile</a></td>
+	          <td>
+		    
+		    <a href="mailto:Kathleen.Moriarty.ietf@gmail.com"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Kathleen%20Moriarty">Kathleen</a>
+		    
+	          </td>
+	          <td>Managed Incident Lightweight Exchange</td>
+	          <td>
+	            
+		      <a href="/person/Nancy%20Cam-Winget">Nancy Cam-Winget</a>
+		      <a href="mailto:ncamwing@cisco.com"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Takeshi%20Takahashi">Takeshi Takahashi</a>
+		      <a href="mailto:takeshi_takahashi@nict.go.jp"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/oauth/">oauth</a></td>
+	          <td>
+		    
+		    <a href="mailto:ekr@rtfm.com"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Eric%20Rescorla">Eric</a>
+		    
+	          </td>
+	          <td>Web Authorization Protocol</td>
+	          <td>
+	            
+		      <a href="/person/Rifaat%20Shekh-Yusef">Rifaat Shekh-Yusef</a>
+		      <a href="mailto:rifaat.ietf@gmail.com"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Hannes%20Tschofenig">Hannes Tschofenig</a>
+		      <a href="mailto:Hannes.Tschofenig@gmx.net"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/sacm/">sacm</a></td>
+	          <td>
+		    
+		    <a href="mailto:Kathleen.Moriarty.ietf@gmail.com"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Kathleen%20Moriarty">Kathleen</a>
+		    
+	          </td>
+	          <td>Security Automation and Continuous Monitoring</td>
+	          <td>
+	            
+		      <a href="/person/Christopher%20Inacio">Christopher Inacio</a>
+		      <a href="mailto:inacio@cert.org"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Adam%20W.%20Montville">Adam Montville</a>
+		      <a href="mailto:adam.w.montville@gmail.com"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Karen%20O&#39;Donoghue">Karen O&#39;Donoghue</a>
+		      <a href="mailto:odonoghue@isoc.org"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/secevent/">secevent</a></td>
+	          <td>
+		    
+		    <a href="mailto:Kathleen.Moriarty.ietf@gmail.com"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Kathleen%20Moriarty">Kathleen</a>
+		    
+	          </td>
+	          <td>Security Events</td>
+	          <td>
+	            
+		      <a href="/person/Dick%20Hardt">Dick Hardt</a>
+		      <a href="mailto:dick.hardt@gmail.com"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Yaron%20Sheffer">Yaron Sheffer</a>
+		      <a href="mailto:yaronf.ietf@gmail.com"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/suit/">suit</a></td>
+	          <td>
+		    
+		    <a href="mailto:Kathleen.Moriarty.ietf@gmail.com"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Kathleen%20Moriarty">Kathleen</a>
+		    
+	          </td>
+	          <td>Software Updates for Internet of Things</td>
+	          <td>
+	            
+		      <a href="/person/Russ%20Housley">Russ Housley</a>
+		      <a href="mailto:housley@vigilsec.com"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Dave%20Thaler">Dave Thaler</a>
+		      <a href="mailto:dthaler@microsoft.com"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/David%20Waltermire">David Waltermire</a>
+		      <a href="mailto:david.waltermire@nist.gov"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/tls/">tls</a></td>
+	          <td>
+		    
+		    <a href="mailto:Kathleen.Moriarty.ietf@gmail.com"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Kathleen%20Moriarty">Kathleen</a>
+		    
+	          </td>
+	          <td>Transport Layer Security</td>
+	          <td>
+	            
+		      <a href="/person/Joseph%20A.%20Salowey">Joseph Salowey</a>
+		      <a href="mailto:joe@salowey.net"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Sean%20Turner">Sean Turner</a>
+		      <a href="mailto:sean+ietf@sn3rd.com"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/tokbind/">tokbind</a></td>
+	          <td>
+		    
+		    <a href="mailto:ekr@rtfm.com"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Eric%20Rescorla">Eric</a>
+		    
+	          </td>
+	          <td>Token Binding</td>
+	          <td>
+	            
+		      <a href="/person/John%20Bradley">John Bradley</a>
+		      <a href="mailto:ve7jtb@ve7jtb.com"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Leif%20Johansson">Leif Johansson</a>
+		      <a href="mailto:leifj@sunet.se"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/trans/">trans</a></td>
+	          <td>
+		    
+		    <a href="mailto:ekr@rtfm.com"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Eric%20Rescorla">Eric</a>
+		    
+	          </td>
+	          <td>Public Notary Transparency</td>
+	          <td>
+	            
+		      <a href="/person/Melinda%20Shore">Melinda Shore</a>
+		      <a href="mailto:melinda.shore@gmail.com"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Paul%20Wouters">Paul Wouters</a>
+		      <a href="mailto:paul@nohats.ca"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+            </tbody>
+          </table>
+        
+
+        <hr>
+      
+        <h2 class="anchor-target" id="tsv">Transport Area (tsv)</h2>
+
+        
+          <h3>tsv Area Directors (ADs)</h3>
+          <ul class="list-unstyled">
+            
+              <li>
+		<a href="mailto:spencerdawkins.ietf@gmail.com"><span class="fa fa-envelope-o tiny"></span></a>
+		<a href="/person/Spencer%20Dawkins">Spencer Dawkins</a>
+	        
+              </li>
+            
+              <li>
+		<a href="mailto:ietf@kuehlewind.net"><span class="fa fa-envelope-o tiny"></span></a>
+		<a href="/person/Mirja%20K%C3%BChlewind">Mirja Kühlewind</a>
+	        
+              </li>
+            
+          </ul>
+        
+
+        
+          <h3>tsv area-specific web pages</h3>
+          <ul class="list-unstyled">
+            
+              <li><a href="https://trac.ietf.org/trac/tsv/report/1">Issue tracker</a></li>
+            
+              <li><a href="https://www.ietf.org/mailman/listinfo/tsv-area">Transport Area Mailing List</a></li>
+            
+              <li><a href="http://trac.tools.ietf.org/area/tsv/trac/wiki">Transport Area Wiki</a></li>
+            
+          </ul>
+        
+
+        
+          <h3>tsv active WGs</h3>
+          <table class="table table-condensed table-striped tablesorter">
+            <thead>
+	      <tr>
+	        <th>Group</th>
+	        <th>Responsible AD</th>
+	        <th>Name</th>
+	        <th>Chairs</th>
+	      </tr>
+            </thead>
+            <tbody>
+	      
+	        <tr>
+	          <td><a href="/wg/alto/">alto</a></td>
+	          <td>
+		    
+		    <a href="mailto:ietf@kuehlewind.net"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Mirja%20K%C3%BChlewind">Mirja</a>
+		    
+	          </td>
+	          <td>Application-Layer Traffic Optimization</td>
+	          <td>
+	            
+		      <a href="/person/Vijay%20K.%20Gurbani">Vijay Gurbani</a>
+		      <a href="mailto:vkg@acm.org"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Jan%20Seedorf">Jan Seedorf</a>
+		      <a href="mailto:ietf@j-f-s.de"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/dtn/">dtn</a></td>
+	          <td>
+		    
+		    <a href="mailto:spencerdawkins.ietf@gmail.com"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Spencer%20Dawkins">Spencer</a>
+		    
+	          </td>
+	          <td>Delay/Disruption Tolerant Networking</td>
+	          <td>
+	            
+		      <a href="/person/Marc%20Blanchet">Marc Blanchet</a>
+		      <a href="mailto:Marc.Blanchet@viagenie.ca"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Rick%20Taylor">Rick Taylor</a>
+		      <a href="mailto:rick@tropicalstormsoftware.com"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/ippm/">ippm</a></td>
+	          <td>
+		    
+		    <a href="mailto:spencerdawkins.ietf@gmail.com"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Spencer%20Dawkins">Spencer</a>
+		    
+	          </td>
+	          <td>IP Performance Measurement</td>
+	          <td>
+	            
+		      <a href="/person/Bill%20Cerveny">Bill Cerveny</a>
+		      <a href="mailto:ietf@wjcerveny.com"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Brian%20Trammell">Brian Trammell</a>
+		      <a href="mailto:ietf@trammell.ch"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/mptcp/">mptcp</a></td>
+	          <td>
+		    
+		    <a href="mailto:ietf@kuehlewind.net"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Mirja%20K%C3%BChlewind">Mirja</a>
+		    
+	          </td>
+	          <td>Multipath TCP</td>
+	          <td>
+	            
+		      <a href="/person/Philip%20Eardley">Philip Eardley</a>
+		      <a href="mailto:philip.eardley@bt.com"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Yoshifumi%20Nishida">Yoshifumi Nishida</a>
+		      <a href="mailto:nishida@sfc.wide.ad.jp"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/nfsv4/">nfsv4</a></td>
+	          <td>
+		    
+		    <a href="mailto:spencerdawkins.ietf@gmail.com"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Spencer%20Dawkins">Spencer</a>
+		    
+	          </td>
+	          <td>Network File System Version 4</td>
+	          <td>
+	            
+		      <a href="/person/Brian%20Pawlowski">Brian Pawlowski</a>
+		      <a href="mailto:beepee@gmail.com"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Spencer%20Shepler">Spencer Shepler</a>
+		      <a href="mailto:spencer.shepler@gmail.com"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/quic/">quic</a></td>
+	          <td>
+		    
+		    <a href="mailto:spencerdawkins.ietf@gmail.com"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Spencer%20Dawkins">Spencer</a>
+		    
+	          </td>
+	          <td>QUIC</td>
+	          <td>
+	            
+		      <a href="/person/Lars%20Eggert">Lars Eggert</a>
+		      <a href="mailto:lars@netapp.com"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Mark%20Nottingham">Mark Nottingham</a>
+		      <a href="mailto:mnot@mnot.net"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/rmcat/">rmcat</a></td>
+	          <td>
+		    
+		    <a href="mailto:ietf@kuehlewind.net"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Mirja%20K%C3%BChlewind">Mirja</a>
+		    
+	          </td>
+	          <td>RTP Media Congestion Avoidance Techniques</td>
+	          <td>
+	            
+		      <a href="/person/Anna%20Brunstrom">Anna Brunstrom</a>
+		      <a href="mailto:anna.brunstrom@kau.se"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Colin%20Perkins">Colin Perkins</a>
+		      <a href="mailto:csp@csperkins.org"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Martin%20Stiemerling">Martin Stiemerling</a>
+		      <a href="mailto:mls.ietf@gmail.com"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/taps/">taps</a></td>
+	          <td>
+		    
+		    <a href="mailto:spencerdawkins.ietf@gmail.com"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Spencer%20Dawkins">Spencer</a>
+		    
+	          </td>
+	          <td>Transport Services</td>
+	          <td>
+	            
+		      <a href="/person/Aaron%20Falk">Aaron Falk</a>
+		      <a href="mailto:aaron.falk@gmail.com"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Zaheduzzaman%20Sarker">Zaheduzzaman Sarker</a>
+		      <a href="mailto:Zaheduzzaman.Sarker@ericsson.com"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/tcpinc/">tcpinc</a></td>
+	          <td>
+		    
+		    <a href="mailto:ietf@kuehlewind.net"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Mirja%20K%C3%BChlewind">Mirja</a>
+		    
+	          </td>
+	          <td>TCP Increased Security</td>
+	          <td>
+	            
+		      <a href="/person/David%20L.%20Black">David Black</a>
+		      <a href="mailto:david.black@dell.com"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Kyle%20Rose">Kyle Rose</a>
+		      <a href="mailto:krose@krose.org"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/tcpm/">tcpm</a></td>
+	          <td>
+		    
+		    <a href="mailto:ietf@kuehlewind.net"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Mirja%20K%C3%BChlewind">Mirja</a>
+		    
+	          </td>
+	          <td>TCP Maintenance and Minor Extensions</td>
+	          <td>
+	            
+		      <a href="/person/Yoshifumi%20Nishida">Yoshifumi Nishida</a>
+		      <a href="mailto:nishida@sfc.wide.ad.jp"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Michael%20Scharf">Michael Scharf</a>
+		      <a href="mailto:michael.scharf@nokia.com"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Michael%20T%C3%BCxen">Michael Tüxen</a>
+		      <a href="mailto:tuexen@fh-muenster.de"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/tram/">tram</a></td>
+	          <td>
+		    
+		    <a href="mailto:spencerdawkins.ietf@gmail.com"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Spencer%20Dawkins">Spencer</a>
+		    
+	          </td>
+	          <td>TURN Revised and Modernized</td>
+	          <td>
+	            
+		      <a href="/person/Gonzalo%20Camarillo">Gonzalo Camarillo</a>
+		      <a href="mailto:gonzalo.camarillo@ericsson.com"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Simon%20Perreault">Simon Perreault</a>
+		      <a href="mailto:sperreault@jive.com"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+	        <tr>
+	          <td><a href="/wg/tsvwg/">tsvwg</a></td>
+	          <td>
+		    
+		    <a href="mailto:spencerdawkins.ietf@gmail.com"><span class="fa fa-envelope-o tiny"></span></a>
+		    <a href="/person/Spencer%20Dawkins">Spencer</a>
+		    
+	          </td>
+	          <td>Transport Area Working Group</td>
+	          <td>
+	            
+		      <a href="/person/David%20L.%20Black">David Black</a>
+		      <a href="mailto:david.black@emc.com"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Wesley%20Eddy">Wesley Eddy</a>
+		      <a href="mailto:wes@mti-systems.com"><span class="fa fa-envelope-o tiny"></span></a> , 
+                    
+		      <a href="/person/Gorry%20Fairhurst">Gorry Fairhurst</a>
+		      <a href="mailto:gorry@erg.abdn.ac.uk"><span class="fa fa-envelope-o tiny"></span></a>
+                    
+                    
+	          </td>
+	        </tr>
+	      
+            </tbody>
+          </table>
+        
+
+        <hr>
+      
+
+    </div>
+    <div class="col-md-2 hidden-print bs-docs-sidebar" id="affix">
+      <ul class="nav nav-pills nav-stacked small" data-spy="affix">
+        
+          <li><a href="#art">Applications and Real-Time Area</a></li>
+        
+          <li><a href="#gen">General Area</a></li>
+        
+          <li><a href="#int">Internet Area</a></li>
+        
+          <li><a href="#ops">Operations and Management Area</a></li>
+        
+          <li><a href="#rtg">Routing Area</a></li>
+        
+          <li><a href="#sec">Security Area</a></li>
+        
+          <li><a href="#tsv">Transport Area</a></li>
+        
+      </ul>
+    </div>
+  </div>
+
+        
+        
+	    </div>
+          </div>
+        
+
+	
+	<hr>
+	  <div class="col-md-12">
+	    <div class="text-center padded">
+	        <a href="https://www.internetsociety.org/" class="padded">ISOC</a>
+	        <a href="https://trustee.ietf.org/" class="padded">IETF&nbsp;Trust</a>
+	        <a href="https://www.rfc-editor.org/" class="padded">RFC&nbsp;Editor</a>
+	        <a href="https://www.irtf.org/" class="padded">IRTF</a>
+	        <a href="https://www.ietf.org/iesg/" class="padded">IESG</a>
+	        <a href="https://www.ietf.org/" class="padded">IETF</a>
+	        <a href="https://www.iab.org/" class="padded">IAB</a>
+	        <a href="https://iaoc.ietf.org" class="padded">IASA&nbsp;&amp;&nbsp;IAOC</a>
+	        <a href="https://tools.ietf.org/" class="padded">IETF&nbsp;Tools</a>
+	        <a href="https://www.iana.org/" class="padded">IANA</a>
+	    </div>
+	  </div>
+
+
+        <footer class="row">
+	  <div class="col-md-12">
+	    <div class="text-center">
+	      <p class="small text-muted">
+	        
+		  <a href="/release/about">About</a> |
+	          IETF Datatracker |
+	          <a href="/release/6.74.0.p1/">Version 6.74.0.p1</a> |
+	          2018-03-06 |
+	        
+		Report a bug:
+	        <a href="https://tools.ietf.org/tools/ietfdb/newticket">Tracker:<span class="fa fa-bug"></span></a>
+	        <a href="mailto:datatracker-project@ietf.org">Email:<span class="fa fa-envelope"></span></a>
+		<br>
+		  Python 2.7.13 |
+		  Django 1.11.10
+	      </p>
+	    </div>
+	  </div>
+        </footer>
+	
+
+      </div>
+
+      
+<!-- template: /a/www/ietf-datatracker/web/ietf/templates/debug.html -->
+
+
+
+      <script src="https://www.ietf.org/lib/dt/6.74.0/jquery/jquery.min.js"></script>
+      
+      <script>$(".visible-nojs").removeClass("visible-nojs");</script>
+      <script>$(".hidden-nojs").removeClass("hidden-nojs");</script>
+      <script src="https://www.ietf.org/lib/dt/6.74.0/jquery.cookie/jquery.cookie.js"></script>
+      <script src="https://www.ietf.org/lib/dt/6.74.0/ietf/bootstrap/js/bootstrap.min.js"></script>
+      <script src="https://www.ietf.org/lib/dt/6.74.0/ietf/js/ietf.js"></script>
+      
+<script src="https://www.ietf.org/lib/dt/6.74.0/jquery.tablesorter/js/jquery.tablesorter.combined.min.js"></script>
+
+      
+  </body>
+</html>
+

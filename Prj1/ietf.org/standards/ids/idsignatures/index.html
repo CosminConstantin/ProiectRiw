@@ -1,0 +1,471 @@
+
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>IETF  | Internet-Draft signatures</title>
+        
+            <meta name="description" content="" />
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <!-- Twitter summary card - see https://dev.twitter.com/cards/types/summary -->
+        <!--  and https://dev.twitter.com/cards/getting-started -->
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@ietf" />
+        <meta name="twitter:title" content="Internet-Draft signatures" />
+        <meta name="twitter:description" content="">
+        <meta name="twitter:image" content="http://www7.ietf.org/media/images/ietflogotrans.original.png">
+
+        <!--facebook opengraph tags-->
+        <meta property="fb:app_id" content="159756941186350" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="/standards/ids/idsignatures/" />
+        <meta property="og:title" content="Internet-Draft signatures" />
+        <meta property="og:image" content="http://www7.ietf.org/media/images/ietflogotrans.original.png" />
+        <meta property="og:description" content="" />
+        <meta property="og:site_name" content="IETF" />
+
+        <link rel="stylesheet" href="/static/CACHE/css/b27d03853fb9.css" type="text/css" />
+
+        
+        <script>
+            document.write('<link rel="stylesheet" href="/static/CACHE/css/0fc5cc81d363.css" type="text/css" />');
+        </script>
+
+        
+
+        <script src="/static/js/vendor/modernizr-2.6.2.min.42306a279a9e.js"></script>
+
+    </head>
+
+    <body class="template-standard-page">
+
+        
+
+        
+
+<header id="show-search">
+    <div class="nav-search-top">
+        <form action="/search/" method="get" name="search">
+            <label for="nav-search" style="display: none;">Search</label>
+            <input id="nav-search" aria-label="Search" name="query" type="text" placeholder="Search" required="">
+            <button class="" type="submit">Go</button>
+        </form>
+    </div>
+
+    <div class="container" id="menu-open">
+        <div class="cf">
+            <div class="icon-mobile hamburger feedback">
+                <a title="open menu" href="#menu-open" class="open-menu click">
+                    <span class="icon ion-android-menu"></span>
+                </a>
+                <a title="close menu" href="#menu-closed" class="close-menu click">
+                    <span class="icon ion-android-menu"></span>
+                </a>
+            </div>
+
+            <!-- Mobile search -->
+            <div class="icon-mobile feedback search-open">
+                <a href="#show-search" class="click show-search">
+                    <span class="icon ion-search"></span>
+                    <span>Search</span>
+                </a>
+                <a href="#" class="click hide-search">
+                    <span class="icon ion-search"></span>
+                    <span>Search</span>
+                </a>
+            </div>
+            <!-- Mobile search end -->
+        </div>
+
+        <div class="logo-holder">
+            <div class="logo">
+                <a href="/"><img src="/static/img/ietf-logo.e4b6ca0dd271.gif" alt="IETF logo"></a>
+            </div>
+        </div>
+
+        <div class="nav-holder">
+            <!-- Hides sub nav on mobile / shows on desktop-->
+            <div class="mobile-tablet">
+                <ul class="nav-sub">
+                    <li>
+                        <a href="/blog/"> News &amp; blog</a>
+                        <ul>
+                            
+                                <li><a href="/blog/?primary_topic=6">Blog</a></li>
+                            
+                                <li><a href="/blog/?primary_topic=5">News</a></li>
+                            
+                                <li><a href="/blog/?primary_topic=7">IESG Statements</a></li>
+                            
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="/contact/">Contact</a>
+                    </li>
+                    <li class="search search-open">
+                        <a href="#show-search" class="click show-search">
+                            <span class="icon ion-search"></span>
+                            <span>Search</span>
+                        </a>
+                        <a href="#" class="click hide-search">
+                            <span class="icon ion-search"></span>
+                            <span>Search</span>
+                        </a>
+                    </li>
+                    <li class="more">
+                        <a href="/links/">Tools</a>
+                        <ul>
+                            
+                                <li><a href="/links/">Quick links</a></li>
+                            
+                                <li><a href="https://datatracker.ietf.org">IETF Datatracker</a></li>
+                            
+                                <li><a href="https://mailarchive.ietf.org/arch/">Email list archive search</a></li>
+                            
+                                <li><a href="/how/meetings/101/">IETF 101 London</a></li>
+                            
+                                <li><a href="/chairs/">WG chair resources</a></li>
+                            
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <nav>
+                <ul>
+                    
+                        <li>
+                            <a  href="/about/">About</a>
+                            
+                                <ul>
+                                    
+                                        <li><a  href="/about/mission/">Mission and principles</a></li>
+                                    
+                                        <li><a  href="/about/who/">Who we are</a></li>
+                                    
+                                        <li><a  href="/about/groups/">Groups</a></li>
+                                    
+                                        <li><a  href="/about/participate/">Participate in the IETF</a></li>
+                                    
+                                        <li><a  href="/about/support/">Support the IETF</a></li>
+                                    
+                                </ul>
+                            
+                        </li>
+                    
+                        <li>
+                            <a  href="/topics/">Topics of interest</a>
+                            
+                                <ul>
+                                    
+                                        <li><a  href="/topics/netmgmt/">Automated network management</a></li>
+                                    
+                                        <li><a  href="/topics/iot/">The Internet of Things</a></li>
+                                    
+                                        <li><a  href="/topics/transport/">New transport technology</a></li>
+                                    
+                                        <li><a  href="/topics/areas/">IETF Areas</a></li>
+                                    
+                                </ul>
+                            
+                        </li>
+                    
+                        <li>
+                            <a  href="/how/">How we work</a>
+                            
+                                <ul>
+                                    
+                                        <li><a  href="/how/wgs/">Working groups</a></li>
+                                    
+                                        <li><a  href="/how/lists/">Email lists</a></li>
+                                    
+                                        <li><a  href="/how/meetings/">Meetings and events</a></li>
+                                    
+                                        <li><a  href="/how/runningcode/">Running code</a></li>
+                                    
+                                        <li><a  href="/how/tools/">Online tools</a></li>
+                                    
+                                        <li><a  href="/how/community-discussions/">Community discussions</a></li>
+                                    
+                                </ul>
+                            
+                        </li>
+                    
+                        <li>
+                            <a  href="/standards/">Internet standards</a>
+                            
+                                <ul>
+                                    
+                                        <li><a  href="/standards/rfcs/">RFCs</a></li>
+                                    
+                                        <li><a  href="/standards/ids/">Internet-Drafts</a></li>
+                                    
+                                        <li><a  href="/standards/ipr/">Intellectual property rights</a></li>
+                                    
+                                        <li><a  href="/standards/process/">Standards process</a></li>
+                                    
+                                </ul>
+                            
+                        </li>
+                    
+                </ul>
+            </nav>
+
+            <!-- Hides sub nav on desktop / shows on mobile-->
+                <ul class="nav-sub mobile-show-tab">
+                    <li>
+                        <a href="/blog/"> News &amp; blogs</a>
+                        <ul>
+                            
+                                <li><a href="/blog/?primary_topic=6">Blog</a></li>
+                            
+                                <li><a href="/blog/?primary_topic=5">News</a></li>
+                            
+                                <li><a href="/blog/?primary_topic=7">IESG Statements</a></li>
+                            
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="/contact/">Contact</a>
+                    </li>
+                    <li class="search search-open">
+                        <a href="#show-search" class="click show-search">
+                            <span class="icon ion-search"></span>
+                            <span>Search</span>
+                        </a>
+                        <a href="#" class="click hide-search">
+                            <span class="icon ion-search"></span>
+                            <span>Search</span>
+                        </a>
+                    </li>
+                    <li class="more">
+                        <a href="/links/">Tools</a>
+                        <ul>
+                            
+                                <li><a href="/links/">Quick links</a></li>
+                            
+                                <li><a href="https://datatracker.ietf.org">IETF Datatracker</a></li>
+                            
+                                <li><a href="https://mailarchive.ietf.org/arch/">Email list archive search</a></li>
+                            
+                                <li><a href="/how/meetings/101/">IETF 101 London</a></li>
+                            
+                                <li><a href="/chairs/">WG chair resources</a></li>
+                            
+                        </ul>
+                    </li>
+                </ul>
+        </div>
+    </div>
+
+</header>
+
+
+        
+
+    <div class="no-overflow-x">
+
+        <div class="body-white rule-desktop">
+            <div class="container">
+                
+
+
+    <ul class="breadcrumb">
+        <li><a title="home" href="/"><span class="icon ion-android-home"></span></a></li>
+        
+            
+        
+            
+        
+            
+                <li><a href="/standards/">Internet standards</a></li>
+            
+        
+            
+                <li><a href="/standards/ids/">Internet-Drafts</a></li>
+            
+        
+    </ul>
+
+
+                <h1>Internet-Draft signatures</h1>
+
+                <p class="intro">Signing submitted Internet Drafts ensures their authenticity, and that they were received via the IETF submission process.</p>
+                <ul class="social"></ul>
+
+            </div>
+        </div>
+
+        <div class="container cf">
+
+            <div class="three none body-white float-right mobile-colour rule-mobile side-col">
+    <div class="this-section feedback">
+        <a class="see" href="#">In this section</a>
+        <a class="hide">Hide in this section</a>
+    </div>
+    <ul class="side-nav sticky">
+      <li class="section"><a href="/standards/ids/">Internet-Drafts</a></li>
+      
+        
+          <li><a href="/standards/ids/guidelines/">Guidelines to Authors of Internet-Drafts</a></li>
+        
+      
+        
+          <li><a href="/standards/ids/checklist/">Checklist for Internet-Drafts (IDs) submitted for RFC publication</a></li>
+        
+      
+        
+          <li class="active">
+            <a href="/standards/ids/idsignatures/">Internet-Draft signatures</a>
+            
+          </li>
+        
+      
+    </ul>
+</div>
+
+
+            
+            <div class="nine">
+
+                
+
+                
+                <div class="body body-panel bleed-left clearfix">
+                    
+                        <div class="key-info-tab has-references">
+                        <h2 class="nojs">Key Info</h2>
+                            <div class="block-paragraph"><div class="rich-text"><p>The IETF <a href="https://www.rfc-editor.org/info/rfc5485">digitally signs</a> all submitted <a href="/standards/ids/">Internet-Drafts</a> to mark these specific drafts as being authentic, and being received by the IETF through the normal Internet-Draft <a href="https://datatracker.ietf.org/submit/tool-instructions/">Submission Process</a>.  These digital signatures are available for public verification use as described below.</p><p><strong>The IETF expresses its heartfelt thanks to <a href="https://www.comodo.com/">Comodo</a> for their generous, ongoing donation of the certificates used by the IETF in its generation of Internet-Draft signatures.</strong></p><h2>Tools Needed for Verification of Internet-Draft Signatures</h2><p>Three things are needed in order to configure your system to verify Internet-Draft signatures.</p><ol><li><a href="https://www.openssl.org/source/">OpenSSL version 1.0.2</a> (22 Jan 2015) or later.</li><li>The IETF open-source canonicalization program, <a href="https://www.ietf.org/id-info/canon.c">canon.c</a>.</li><li>The new <a href="https://www.ietf.org/id-info/verifybundle.pem">IETF/Comodo Verification Certificate Bundle</a>.</li></ol><p><br/></p><p>OpenSSL provides the engine used for both the generation and verification of digital signatures.  Installation instructions for OpenSSL are included in the <a href="https://www.openssl.org/source/">source distribution</a>.  On Unix-based systems, a simple three-step process (config; make; make install) generally results in a successful installation of OpenSSL into /usr/local/ssl on the target system.  Most Unix-based systems also offer prebuilt deployments of OpenSSL.  Consult your distribution manager for details and installation instructions.</p><p>The IETF Canonicalization program, <a href="https://www.ietf.org/id-info/canon.c">canon.c</a>, converts plain text Internet-Drafts into their canonical format.  This tool is only needed when verifying a plain text Internet-Draft.  Depending on the manner used to download the Internet-Draft and the operating system that was used, the file may contain various line-endings (CR only, LF only, CRLF).  As a result, <a href="https://www.rfc-editor.org/rfc/rfc5485.txt">RFC5485</a> stipulates that signatures for plain text Internet-Drafts will be generated against the Canonical Form  (see sections 2.1 and 2.2 of <a class="bibliography-reference" data-ordering="1" href="#bibliography1">RFC 5485</a> for details.)  The IETF's Canonicalization program will convert plain text Internet-Drafts to canonical form, which form can then be used for verification.  On Unix-based systems, a single command ([g]cc -o canon canon.c) will compile canon.c and generate a local binary, "canon", which can be used in the verification process.</p><p>Finally, as of March, 2015, the new <a href="https://www.ietf.org/id-info/verifybundle.pem">IETF/Comodo Verification Certificate Bundle</a> contains the necessary trust anchor certificates needed by OpenSSL in order to verify digital signatures generated by the IETF.</p><h2>Locating Digital Signatures</h2><p>The digital signature is stored in a file with the same name as the Internet-Draft followed by a .p7s file extension. For example:</p><p>Internet-Draft: draft-ietf-example-widgets-03.txt<br/>Signature File: draft-ietf-example-widgets-03.txt.p7s</p><p>Internet-Draft: draft-ietf-example-widgets-03.ps<br/>Signature File: draft-ietf-example-widgets-03.ps.p7s</p><p>Internet-Draft: draft-housley-internet-draft-sig-file-00.txt<br/>Signature File: draft-housley-internet-draft-sig-file-00.txt.p7s</p><p>Once you have the necessary tools installed, and have a draft and associated signature, you are prepared to verify the signature.</p><h3>Verifiying an Internet-Draft Signature</h3><p>Step 1: <b>For plain-text Internet-Drafts only</b>, convert the Internet-Draft to canonical form:</p></div></div>
+<div class="block-raw_html"><pre>canon &lt;draft-filename&gt;.txt &lt;draft-canonical-filename&gt;.txt</pre></div>
+<div class="block-paragraph"><div class="rich-text"><p><i>This step is only necessary for plain text Internet-Drafts.</i> Use the canonical file when performing verification.</p><p>Step 2 - <b>Use OpenSSL to verify the draft signature:</b></p></div></div>
+<div class="block-raw_html"><pre>openssl cms -verify -CAfile verifybundle.pem -content &lt;id-file-name&gt; -inform DER /
+-in &lt;sig-file-name&gt; -out /dev/null</pre></div>
+<div class="block-paragraph"><div class="rich-text"><p>OpenSSL will generally respond with "OK" if verification succeeds.  Any other output from OpenSSL will include diagnostic error messages explaining why a failure occurred.</p><h2>Additional Tools and Resources </h2><p>Here are some additional tools and resources that will aid users working with Internet-Draft signatures: </p><ul><li>The manual page for the IETF canon.c program is available in nroff (<a href="https://www.ietf.org/id-info/canon.1">canon.1</a>) and text (<a href="https://www.ietf.org/id-info/canon.1.txt">canon.1.txt</a>) forms</li><li>An Internet-Draft signature check bash script, <a href="https://www.ietf.org/id-info/idsigcheck">idsigcheck</a>, which automates the verification process, along with its manual page in nroff (<a href="https://www.ietf.org/id-info/idsigcheck.1">idsigcheck.1</a>) and text (<a href="https://www.ietf.org/id-info/idsigcheck.1.txt">idsigcheck.1.txt</a>) forms.</li></ul></div></div>
+                        </div>
+                    
+
+                    
+
+                    
+    <div id="bibliography" class="gradient-sharp-subtle">
+        <div class="border-blue-white">
+            <div class="container">
+                <div class="nine body-subtle rule-blue-top">
+                    <div class="body">
+                        <h3>Bibliography</h2>
+                        <ul class="ref">
+                            
+                                <li class="bibliography-item">
+                                    <a name="bibliography1"></a>
+                                    <a href="https://datatracker.ietf.org/doc/rfc5485" class="bibliography-link">
+                                        <div class="reference">[<span class="reference-ordering">1</span>] <span class="reference-title">RFC 5485</span></div>
+                                    </a>
+                                    
+                                        <div class="reference-long-title">Digital Signatures on Internet-Draft Documents</div>
+                                    
+                                    <div class="reference-cont"><h2>This document specifies the conventions for digital signatures on Internet-Drafts.  The Cryptographic Message Syntax (CMS) is used to create a detached signature, which is stored in a separate companion file so that no existing utilities are impacted by the addition of the digital signature.  Thi...</h2>
+<p>Russ Housley</p>
+</div>
+                                </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                </div>
+
+
+                
+
+                
+
+                
+
+                
+
+            </div>
+            
+
+        </div>
+
+        
+
+    </div>
+
+
+        <footer class="cf">
+    <div class="container">
+        <ul class="links">
+            
+                <li><a href="https://www.rfc-editor.org">RFC Editor</a></li>
+            
+                <li><a href="https://www.iana.org">IANA</a></li>
+            
+                <li><a href="https://www.iab.org">IAB</a></li>
+            
+                <li><a href="https://iaoc.ietf.org">IAOC</a></li>
+            
+                <li><a href="https://www.irtf.org">IRTF</a></li>
+            
+                <li><a href="https://trustee.ietf.org">IETF Trust</a></li>
+            
+                <li><a href="https://www.amsl.com">Secretariat: AMS</a></li>
+            
+                <li><a href="https://www.internetsociety.org">ISOC</a></li>
+            
+                <li><a href="/privacy-policy/">Privacy policy</a></li>
+            
+                <li><a href="/contact/website/">Website feedback</a></li>
+            
+        </ul>
+    </div>
+</footer>
+
+        <script type="text/javascript" src="/static/CACHE/js/b727eb3dac5d.js"></script>
+
+        
+    <script type="text/javascript">
+        
+            if ($(window).width() >= 1150) {
+                $('.side-col.float-right').height($('.key-info-tab').height());
+            }
+        
+
+        
+            $('.key-info').show();
+        
+        
+
+        $('.in-depth').click(function() {
+            $('.in-depth').addClass('active');
+            $('.key-info').removeClass('active');
+            $('.key-info-tab').addClass('hide');
+            $('.in-depth-tab').removeClass('hide');
+            if ($(window).width() >= 1150) {
+                $('.side-col.float-right').height($('.no-overflow-x').height());
+            }
+        });
+        $('.key-info').click(function(){
+            $('.key-info').addClass('active');
+            $('.in-depth').removeClass('active');
+            $('.key-info-tab').removeClass('hide');
+            $('.in-depth-tab').addClass('hide');
+            if ($(window).width() >= 1150) {
+                $('.side-col.float-right').height($('.no-overflow-x').height());
+            }
+        });
+    </script>
+
+    </body>
+</html>

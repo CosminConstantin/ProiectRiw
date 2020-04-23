@@ -1,0 +1,484 @@
+
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>IETF  | Implementation reports</title>
+        
+            <meta name="description" content="" />
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <!-- Twitter summary card - see https://dev.twitter.com/cards/types/summary -->
+        <!--  and https://dev.twitter.com/cards/getting-started -->
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@ietf" />
+        <meta name="twitter:title" content="Implementation reports" />
+        <meta name="twitter:description" content="">
+        <meta name="twitter:image" content="http://www7.ietf.org/media/images/ietflogotrans.original.png">
+
+        <!--facebook opengraph tags-->
+        <meta property="fb:app_id" content="159756941186350" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="/how/runningcode/implementation-reports/" />
+        <meta property="og:title" content="Implementation reports" />
+        <meta property="og:image" content="http://www7.ietf.org/media/images/ietflogotrans.original.png" />
+        <meta property="og:description" content="" />
+        <meta property="og:site_name" content="IETF" />
+
+        <link rel="stylesheet" href="/static/CACHE/css/b27d03853fb9.css" type="text/css" />
+
+        
+        <script>
+            document.write('<link rel="stylesheet" href="/static/CACHE/css/0fc5cc81d363.css" type="text/css" />');
+        </script>
+
+        
+
+        <script src="/static/js/vendor/modernizr-2.6.2.min.42306a279a9e.js"></script>
+
+    </head>
+
+    <body class="template-standard-page">
+
+        
+
+        
+
+<header id="show-search">
+    <div class="nav-search-top">
+        <form action="/search/" method="get" name="search">
+            <label for="nav-search" style="display: none;">Search</label>
+            <input id="nav-search" aria-label="Search" name="query" type="text" placeholder="Search" required="">
+            <button class="" type="submit">Go</button>
+        </form>
+    </div>
+
+    <div class="container" id="menu-open">
+        <div class="cf">
+            <div class="icon-mobile hamburger feedback">
+                <a title="open menu" href="#menu-open" class="open-menu click">
+                    <span class="icon ion-android-menu"></span>
+                </a>
+                <a title="close menu" href="#menu-closed" class="close-menu click">
+                    <span class="icon ion-android-menu"></span>
+                </a>
+            </div>
+
+            <!-- Mobile search -->
+            <div class="icon-mobile feedback search-open">
+                <a href="#show-search" class="click show-search">
+                    <span class="icon ion-search"></span>
+                    <span>Search</span>
+                </a>
+                <a href="#" class="click hide-search">
+                    <span class="icon ion-search"></span>
+                    <span>Search</span>
+                </a>
+            </div>
+            <!-- Mobile search end -->
+        </div>
+
+        <div class="logo-holder">
+            <div class="logo">
+                <a href="/"><img src="/static/img/ietf-logo.e4b6ca0dd271.gif" alt="IETF logo"></a>
+            </div>
+        </div>
+
+        <div class="nav-holder">
+            <!-- Hides sub nav on mobile / shows on desktop-->
+            <div class="mobile-tablet">
+                <ul class="nav-sub">
+                    <li>
+                        <a href="/blog/"> News &amp; blog</a>
+                        <ul>
+                            
+                                <li><a href="/blog/?primary_topic=6">Blog</a></li>
+                            
+                                <li><a href="/blog/?primary_topic=5">News</a></li>
+                            
+                                <li><a href="/blog/?primary_topic=7">IESG Statements</a></li>
+                            
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="/contact/">Contact</a>
+                    </li>
+                    <li class="search search-open">
+                        <a href="#show-search" class="click show-search">
+                            <span class="icon ion-search"></span>
+                            <span>Search</span>
+                        </a>
+                        <a href="#" class="click hide-search">
+                            <span class="icon ion-search"></span>
+                            <span>Search</span>
+                        </a>
+                    </li>
+                    <li class="more">
+                        <a href="/links/">Tools</a>
+                        <ul>
+                            
+                                <li><a href="/links/">Quick links</a></li>
+                            
+                                <li><a href="https://datatracker.ietf.org">IETF Datatracker</a></li>
+                            
+                                <li><a href="https://mailarchive.ietf.org/arch/">Email list archive search</a></li>
+                            
+                                <li><a href="/how/meetings/101/">IETF 101 London</a></li>
+                            
+                                <li><a href="/chairs/">WG chair resources</a></li>
+                            
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <nav>
+                <ul>
+                    
+                        <li>
+                            <a  href="/about/">About</a>
+                            
+                                <ul>
+                                    
+                                        <li><a  href="/about/mission/">Mission and principles</a></li>
+                                    
+                                        <li><a  href="/about/who/">Who we are</a></li>
+                                    
+                                        <li><a  href="/about/groups/">Groups</a></li>
+                                    
+                                        <li><a  href="/about/participate/">Participate in the IETF</a></li>
+                                    
+                                        <li><a  href="/about/support/">Support the IETF</a></li>
+                                    
+                                </ul>
+                            
+                        </li>
+                    
+                        <li>
+                            <a  href="/topics/">Topics of interest</a>
+                            
+                                <ul>
+                                    
+                                        <li><a  href="/topics/netmgmt/">Automated network management</a></li>
+                                    
+                                        <li><a  href="/topics/iot/">The Internet of Things</a></li>
+                                    
+                                        <li><a  href="/topics/transport/">New transport technology</a></li>
+                                    
+                                        <li><a  href="/topics/areas/">IETF Areas</a></li>
+                                    
+                                </ul>
+                            
+                        </li>
+                    
+                        <li>
+                            <a  href="/how/">How we work</a>
+                            
+                                <ul>
+                                    
+                                        <li><a  href="/how/wgs/">Working groups</a></li>
+                                    
+                                        <li><a  href="/how/lists/">Email lists</a></li>
+                                    
+                                        <li><a  href="/how/meetings/">Meetings and events</a></li>
+                                    
+                                        <li><a  href="/how/runningcode/">Running code</a></li>
+                                    
+                                        <li><a  href="/how/tools/">Online tools</a></li>
+                                    
+                                        <li><a  href="/how/community-discussions/">Community discussions</a></li>
+                                    
+                                </ul>
+                            
+                        </li>
+                    
+                        <li>
+                            <a  href="/standards/">Internet standards</a>
+                            
+                                <ul>
+                                    
+                                        <li><a  href="/standards/rfcs/">RFCs</a></li>
+                                    
+                                        <li><a  href="/standards/ids/">Internet-Drafts</a></li>
+                                    
+                                        <li><a  href="/standards/ipr/">Intellectual property rights</a></li>
+                                    
+                                        <li><a  href="/standards/process/">Standards process</a></li>
+                                    
+                                </ul>
+                            
+                        </li>
+                    
+                </ul>
+            </nav>
+
+            <!-- Hides sub nav on desktop / shows on mobile-->
+                <ul class="nav-sub mobile-show-tab">
+                    <li>
+                        <a href="/blog/"> News &amp; blogs</a>
+                        <ul>
+                            
+                                <li><a href="/blog/?primary_topic=6">Blog</a></li>
+                            
+                                <li><a href="/blog/?primary_topic=5">News</a></li>
+                            
+                                <li><a href="/blog/?primary_topic=7">IESG Statements</a></li>
+                            
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="/contact/">Contact</a>
+                    </li>
+                    <li class="search search-open">
+                        <a href="#show-search" class="click show-search">
+                            <span class="icon ion-search"></span>
+                            <span>Search</span>
+                        </a>
+                        <a href="#" class="click hide-search">
+                            <span class="icon ion-search"></span>
+                            <span>Search</span>
+                        </a>
+                    </li>
+                    <li class="more">
+                        <a href="/links/">Tools</a>
+                        <ul>
+                            
+                                <li><a href="/links/">Quick links</a></li>
+                            
+                                <li><a href="https://datatracker.ietf.org">IETF Datatracker</a></li>
+                            
+                                <li><a href="https://mailarchive.ietf.org/arch/">Email list archive search</a></li>
+                            
+                                <li><a href="/how/meetings/101/">IETF 101 London</a></li>
+                            
+                                <li><a href="/chairs/">WG chair resources</a></li>
+                            
+                        </ul>
+                    </li>
+                </ul>
+        </div>
+    </div>
+
+</header>
+
+
+        
+
+    <div class="no-overflow-x">
+
+        <div class="body-white rule-desktop">
+            <div class="container">
+                
+
+
+    <ul class="breadcrumb">
+        <li><a title="home" href="/"><span class="icon ion-android-home"></span></a></li>
+        
+            
+        
+            
+        
+            
+                <li><a href="/how/">How we work</a></li>
+            
+        
+            
+                <li><a href="/how/runningcode/">Running code</a></li>
+            
+        
+    </ul>
+
+
+                <h1>Implementation reports</h1>
+
+                <p class="intro">This page provides implementation reports of a protocol specifications that have been considered for advancement to an Internet Standard.</p>
+                <ul class="social"></ul>
+
+            </div>
+        </div>
+
+        <div class="container cf">
+
+            <div class="three none body-white float-right mobile-colour rule-mobile side-col">
+    <div class="this-section feedback">
+        <a class="see" href="#">In this section</a>
+        <a class="hide">Hide in this section</a>
+    </div>
+    <ul class="side-nav sticky">
+      <li class="section"><a href="/how/runningcode/">Running code</a></li>
+      
+        
+          <li><a href="/how/runningcode/hackathons/">IETF Hackathons</a></li>
+        
+      
+        
+          <li><a href="/how/runningcode/code-sprint/">Code Sprint</a></li>
+        
+      
+        
+          <li><a href="/how/runningcode/codestand/">CodeStand</a></li>
+        
+      
+        
+          <li class="active">
+            <a href="/how/runningcode/implementation-reports/">Implementation reports</a>
+            
+          </li>
+        
+      
+    </ul>
+</div>
+
+
+            
+            <div class="nine">
+
+                
+
+                
+                <div class="body body-panel bleed-left clearfix">
+                    
+                        <div class="key-info-tab has-references">
+                        <h2 class="nojs">Key Info</h2>
+                            <div class="block-paragraph"><div class="rich-text"><p>The IETF Standards Process (<a class="bibliography-reference" data-ordering="1" href="#bibliography1">RFC 2026</a>, updated by <a class="bibliography-reference" data-ordering="2" href="#bibliography2">RFC 6410</a>) requires at least two independent and inter-operable implementations for advancing a protocol specification to Internet Standard. Following the Montreal IETF meeting June, 1996, the IAB recommended that:</p><p>"The IETF Secretariat should be responsible for making this material available to the community." </p><p>This page provides implementation reports as received by the IESG in its deliberations. Note that this is NOT a list of endorsements. Nor should it be assumed that the list is all inclusive. Indeed, there may be many more implementations. </p><p>The IETF Secretariat provides the following reports for information only, and in no way endorses their accuracy. This disclaimer must be quoted in full whenever the information from the reports is quoted.</p></div></div>
+<div class="block-paragraph"><div class="rich-text"><ul><li><a href="https://www.ietf.org/iesg/implementation/report-pim-anycast-rp.txt">Implementation Report for Anycast-RP using PIM</a> (TXT)</li><li><a href="https://www.ietf.org/iesg/implementation/report-idr-avoid-transition.txt">Implementation Report for Avoid EBGP Best Path Transitions</a> (TXT)</li><li><a href="https://www.ietf.org/iesg/implementation/report-idr-bgp-gr-survey.txt">Implementation Report for BGP Graceful Restart</a> (TXT)</li><li><a href="https://www.ietf.org/iesg/implementation/report-idr-rfc2796bis.txt">Implementation Report for BGP Route Reflection</a> (TXT)</li><li><a href="https://www.ietf.org/iesg/implementation/report-huston-idr-as4bytes-survey.txt">Implementation Report for BGP support for 4-Byte AS Numbers</a> (TXT)</li><li><a href="https://www.ietf.org/iesg/implementation/report-levy-idr-6pe-survey.txt">Implementation Report for Connecting IPv6 Islands over IPv4 MPLS using IPv6 Provider Edge Routers (6PE)</a> (TXT)</li><li><a href="https://www.ietf.org/iesg/implementation/report-rfc2303.txt">Implementation Report for draft-ietf-fax-minaddr-v2</a> (TXT)</li><li><a href="https://www.ietf.org/iesg/implementation/report-rfc2842.txt">Implementation Report for draft-ietf-idr-rfc2842bis</a> (TXT)</li><li><a href="https://www.ietf.org/iesg/implementation/report-ipv6-privacy-addrs-v2.txt">Implementation Report for draft-ietf-ipv6-privacy-addrs-v2</a> (TXT)</li><li><a href="https://www.ietf.org/iesg/implementation/report-l3vpn-ospf-2547bis.txt">Implementation Report for draft-ietf-l3vpn-ospf-2547bis</a> (TXT)</li><li><a href="https://www.ietf.org/iesg/implementation/report-otp.html">Implementation Report for draft-ietf-otp</a> (HTML)</li><li><a href="https://www.ietf.org/iesg/implementation/report-dhcp.html">Implementation Report for Dynamic Host Configuration</a> (HTML)</li><li><a href="https://www.ietf.org/iesg/implementation/report-entmib-v3.html">Implementation Report for Entity MIB</a> (HTML)</li><li><a href="https://www.ietf.org/iesg/implementation/report-ccamp-gmpls-signaling-survey-preview-3a.txt">Implementation Report for Generalized MPLS Signaling</a> (TXT)</li><li><a href="https://www.ietf.org/iesg/implementation/report-uri-syntax.html">Implementation Report for Generic URI Syntax</a> (HTML)</li><li><a href="https://www.ietf.org/iesg/implementation/report-http-v11-spec-rev.txt">Implementation Report for HTTP/1.1 to Draft Standard</a> (TXT)</li><li><a href="https://www.ietf.org/iesg/implementation/report-ifmib-ifmib2.txt">Implementation Report for ifmib-ifmib2 and ifmib-invstackmib</a> (TXT)</li><li><a href="https://www.ietf.org/iesg/implementation/report-ietf-ipngwg-icmp-v2.txt">Implementation Report for Internet Control Message Protocol (ICMPv6) for the Internet Protocol Version 6 (IPv6) Specification </a>(TXT)</li><li><a href="https://www.ietf.org/iesg/implementation/report-ipngwg-ipv6-spec-v2.txt">Implementation Report for Internet Protocol, Version 6 (IPv6) Specification</a> (TXT)</li><li><a href="https://www.ietf.org/iesg/implementation/report-ip-hippi.txt">Implementation Report for IP over HIPPI (Draft Standard)</a> (TXT)</li><li><a href="https://www.ietf.org/iesg/implementation/report-rfc2393.txt">Implementation Report for IP Payload Compression Protocol (IPComp) (RFC 2393)</a> (TXT)</li><li><a href="https://www.ietf.org/iesg/implementation/report-ipngwg-addr-arch-v3.txt">Implementation Report for IP Version 6 Addressing Architecture</a> (TXT)</li><li><a href="https://www.ietf.org/iesg/implementation/report-frmib.txt">Implementation Report for Management Information Base for Frame Relay DTEs (Draft Standard)</a> (TXT)</li><li><a href="https://www.ietf.org/iesg/implementation/report-vaudreuil-mdnbis.txt">Implementation Report for MDN (Mail Disposition Notice) to Draft Standard</a> (TXT)<ul><li><a href="https://www.ietf.org/iesg/implementation/report-vaudreuil-mdnbis-supplement.txt">Supplement to Implementation Report for MDN (Mail Disposition Notice) to Draft Standard</a> (TXT)</li></ul></li><li><a href="https://www.ietf.org/iesg/implementation/report-idr-rfc2858bis.txt">Implementation Report for MP-BGP</a> (TXT)</li><li><a href="https://www.ietf.org/iesg/implementation/report-ipngwg-discovery-v2.txt">Implementation Report for Neighbor Discovery for IPv6 and IPv6 Stateless Address Autoconfiguration</a> (TXT)</li><li><a href="https://www.ietf.org/iesg/implementation/report-rfc2329.txt">Implementation Report for OSPF Standardization</a> (TXT)</li><li><a href="https://www.ietf.org/iesg/implementation/report-ipxcp.txt">Implementation Report for PPP Internetwork Packet Exchange Control Protocol (IPXCP) (Draft Standard)</a> (TXT)</li><li><a href="https://www.ietf.org/iesg/implementation/report-ppp-lcp-ext.html">Implementation Report for PPP LCP Extensions</a> (HTML)</li><li><a href="https://www.ietf.org/iesg/implementation/report-radius.txt">Implementation Report for RADIUS</a> (TXT)</li><li><a href="https://www.ietf.org/iesg/implementation/report-rfc1293.txt">Implementation Report for RFC 1293</a> (TXT)</li><li><a href="https://www.ietf.org/iesg/implementation/report-rfc1490.txt">Implementation Report for RFC 1490</a> (TXT)</li><li><a href="https://www.ietf.org/iesg/implementation/report-rfc1513.txt">Implementation Report for RFC 1513</a> (TXT)</li><li><a href="https://www.ietf.org/iesg/implementation/report-rfc1514.txt">Implementation Report for RFC 1514</a> (TXT)</li><li><a href="https://www.ietf.org/iesg/implementation/report-rfc1757.txt">Implementation Report for RFC 1757</a> (TXT)</li><li><a href="https://www.ietf.org/iesg/implementation/report-rfc1766.txt">Implementation Report for RFC 1766</a> (TXT)</li><li><a href="https://www.ietf.org/iesg/implementation/report-rfc1831.txt">Implementation Report for RFC 1831</a> (TXT)</li><li><a href="https://www.ietf.org/iesg/implementation/report-rfc1886.html">Implementation Report for RFC 1886</a> (HTML)</li><li><a href="https://www.ietf.org/iesg/implementation/report-rfc1891-1894.txt">Implementation Report for RFCs 1891-1894 (Delivery Status Notification)</a> (TXT)</li><li><a href="https://www.ietf.org/iesg/implementation/report-rfc1905-1907.html">Implementation Report for RFCs 1905-1907</a> (HTML)</li><li><a href="https://www.ietf.org/iesg/implementation/report-rfc1981.txt">Implementation Report for RFC 1981 (Path MTU Discovery for IP version 6)</a> (TXT)</li><li><a href="https://www.ietf.org/iesg/implementation/report-rfc2021.txt">Implementation Report for RFC 2021</a> (TXT)</li><li><a href="https://www.ietf.org/iesg/implementation/report-rfc2026.html">Implementation Report for RFC 2026</a> (HTML)</li><li><a href="https://www.ietf.org/iesg/implementation/report-rfc2074.txt">Implementation Report for RFC 2074</a> (TXT) <em>obsoleted by</em> <a href="https://www.ietf.org/iesg/implementation/report-rfc2895.txt">Implemenation Report for RFC 2895</a></li><li><a href="https://www.ietf.org/iesg/implementation/report-rfc2195.txt">Implementation Report for RFC 2195</a> (TXT)</li><li><a href="https://www.ietf.org/iesg/implementation/report-rfc2234.txt">Implementation Report for RFC 2234</a> (TXT)</li><li><a href="https://www.ietf.org/iesg/implementation/report-rfc2279.txt">Implementation Report for RFC 2279</a> (TXT)</li><li><a href="https://www.ietf.org/iesg/implementation/report-rfc2289.html">Implementation Report for RFC 2289</a> (HTML)</li><li><a href="https://www.ietf.org/iesg/implementation/report-rfc2301.txt">Implementation Report for RFC 2301</a> (TXT)<ul><li><a href="https://www.ietf.org/iesg/implementation/report-rfc2301-supplement.txt">Supplement to Implementation Report for RFC 2301</a> (TXT)</li><li><a href="https://www.ietf.org/iesg/implementation/report-rfc2301-tables.txt">TIFF-FX Interoperability Tables for Implementation Report for RFC 2301</a> (TXT)</li></ul></li><li><a href="https://www.ietf.org/iesg/implementation/report-rfc2304.txt">Implementation Report for RFC 2304</a> (TXT)</li><li><a href="https://www.ietf.org/iesg/implementation/report-rfc2305.txt">Implementation Report for RFC 2305</a> (TXT)</li><li><a href="https://www.ietf.org/iesg/implementation/report-rfc2338.txt">Implementation Report for RFC 2338 (November 2003)</a> (TXT)<ul><li><a href="https://www.ietf.org/iesg/implementation/report-rfc2338-1.txt">Implementation Report for RFC 2338 (December 1998)</a> (TXT)</li></ul></li><li><a href="https://www.ietf.org/iesg/implementation/report-rfc2373-2374.txt">Implementation Report for RFCs 2373-2374</a> (TXT)</li><li><a href="https://www.ietf.org/iesg/implementation/report-rfc2421.txt">Implementation Report for RFC 2421</a> (TXT)</li><li><a href="https://www.ietf.org/iesg/implementation/report-rfc2472.txt">Implementation Report for RFC 2472 (IPv6 over PPP)</a> (TXT)</li><li><a href="https://www.ietf.org/iesg/implementation/report-rfc2476.txt">Implementation Report for RFC 2476 and draft-gellens-submit-bis</a> (TXT)</li><li><a href="https://www.ietf.org/iesg/implementation/report-rfc2493.txt">Implementation Report for RFC 2493</a> (TXT)</li><li><a href="https://www.ietf.org/iesg/implementation/report-rfc2558.txt">Implementation Report for RFC 2558</a> (TXT)</li><li><a href="https://www.ietf.org/iesg/implementation/report-rfc2571-2575.txt">Implementation Report for RFCs 2571-2575</a> (TXT)</li><li><a href="https://www.ietf.org/iesg/implementation/report-rfc2613.txt">Implementation Report for RFC 2613</a> (TXT)</li><li><a href="https://www.ietf.org/iesg/implementation/report-rfc2741-2742.html">Implementation Report for RFCs 2741-2742</a> (HTML)</li><li><a href="https://www.ietf.org/iesg/implementation/report-rfc2821.txt">Implementation Report for RFC 2821</a> (TXT)</li><li><a href="https://www.ietf.org/iesg/implementation/report-rfc2822.txt">Implementation Report for RFC 2822</a> (TXT)</li><li><a href="https://www.ietf.org/iesg/implementation/report-rfc2895.txt">Implementation Report for RFC 2895</a> (TXT)</li><li><a href="https://www.ietf.org/iesg/implementation/report-rfc3036bis.txt">Implementation Report for RFC 3036bis</a> (TXT)</li><li><a href="https://www.ietf.org/iesg/implementation/report-rfc3041.txt">Implementation Report for RFC 3041 (IPv6 Privacy Addresses)</a> (TXT)</li><li><a href="https://www.ietf.org/iesg/implementation/report-rfc3065bis.txt">Implementation Report for RFC 3065bis</a> (TXT)</li><li><a href="https://www.ietf.org/iesg/implementation/report-rfc3075.html">Implementation Report for RFC 3075</a> (HTML)</li><li><a href="https://www.ietf.org/iesg/implementation/report-rfc3302.txt">Implementation Report for RFC 3302</a> (TXT)</li><li><a href="https://www.ietf.org/iesg/implementation/report-rfc3597.txt">Implementation Report for RFC 3597</a> (TXT)</li><li><a href="https://www.ietf.org/iesg/implementation/report-rfc3730-3734.txt">Implementation Report for RFCs 3730-3734</a> (TXT)</li><li><a href="https://www.ietf.org/iesg/implementation/report-rfc3749.txt">Implementation Report for RFC 3749</a> (TXT)</li><li><a href="https://www.ietf.org/iesg/implementation/report-rfc3848.txt">Implementation report for RFC 3848</a> (TXT)</li><li><a href="https://www.ietf.org/iesg/implementation/report-rfc3852.txt">Implementation Report for RFC 3852 [CMS (RFC 3852) Implementation Report]</a> (TXT) (<a href="https://www.ietf.org/iesg/implementation/report-rfc3852.pdf">PDF</a>)</li><li><a href="https://www.ietf.org/iesg/implementation/report-rfc4234.txt">Implementation Report for RFC 4234</a> (TXT)</li><li><a href="https://www.ietf.org/iesg/implementation/report-rfc4871.txt">Implementation Report for RFC 4871</a> (TXT)</li><li><a href="https://www.ietf.org/iesg/implementation/report-rfc4930-4934.txt">Implementation Report for RFCs 4930-4934</a> (TXT)</li><li><a href="https://www.ietf.org/iesg/implementation/report-ripv2.txt">Implementation Report for RIP V2</a> (TXT)</li><li><a href="https://www.ietf.org/iesg/implementation/report-isis-ipv6.txt">Implementation Report for Routing IPv6 with IS-IS</a> (TXT)</li><li><a href="https://www.ietf.org/iesg/implementation/report-avt-rtp-rtcp.txt">Implementation Report for RTP/RTCP</a> (TXT)</li><li><a href="https://www.ietf.org/iesg/implementation/report-mmusic-sdp.html">Implementation Report for Session Description Protocol (SDP)</a> (HTML)</li><li><a href="https://www.ietf.org/iesg/implementation/report-smtp-pipeline.txt">Implementation Report for SMTP Service Extension for Command Pipelining</a> (TXT)</li><li><a href="https://www.ietf.org/iesg/implementation/report-smtp-pipelining.txt">Implementation Report for SMTP Service Extension for Command Pipelining for Standard Status</a> (TXT)</li><li><a href="https://www.ietf.org/iesg/implementation/report-tftp.html">Implementation Report for TFTP Extensions</a> (HTML)</li><li><a href="https://www.ietf.org/iesg/implementation/report-tn3270e.html">Implementation Report for TN3270E Version 2</a> (HTML)</li><li><a href="https://www.ietf.org/iesg/implementation/report-vrrp-ipv6-spec.txt">Implementation Report for Virtual Router Redundancy Protocol for IPv6 (draft-ietf-vrrp-ipv6-spec)</a> (TXT)</li><li><a href="https://www.ietf.org/iesg/implementation/report-xdr.txt">Implementation Report for XDR</a> (TXT)</li><li><a href="https://www.ietf.org/iesg/implementation/report-rfc5343-5590-5591-5953.txt">Interoperability Report for RFC 5343, RFC 5590, RFC 5591, and RFC 5953</a> (TXT)</li></ul></div></div>
+                        </div>
+                    
+
+                    
+
+                    
+    <div id="bibliography" class="gradient-sharp-subtle">
+        <div class="border-blue-white">
+            <div class="container">
+                <div class="nine body-subtle rule-blue-top">
+                    <div class="body">
+                        <h3>Bibliography</h2>
+                        <ul class="ref">
+                            
+                                <li class="bibliography-item">
+                                    <a name="bibliography1"></a>
+                                    <a href="https://datatracker.ietf.org/doc/rfc2026" class="bibliography-link">
+                                        <div class="reference">[<span class="reference-ordering">1</span>] <span class="reference-title">RFC 2026</span></div>
+                                    </a>
+                                    
+                                        <div class="reference-long-title">The Internet Standards Process -- Revision 3</div>
+                                    
+                                    <div class="reference-cont"><h2>This memo documents the process used by the Internet community for the standardization of protocols and procedures.  It defines the stages in the standardization process, the requirements for moving a document between stages and the types of documents used during this process.  This document spec...</h2>
+<p></p>
+</div>
+                                </li>
+                            
+                                <li class="bibliography-item">
+                                    <a name="bibliography2"></a>
+                                    <a href="https://datatracker.ietf.org/doc/rfc6410" class="bibliography-link">
+                                        <div class="reference">[<span class="reference-ordering">2</span>] <span class="reference-title">RFC 6410</span></div>
+                                    </a>
+                                    
+                                        <div class="reference-long-title">Reducing the Standards Track to Two Maturity Levels</div>
+                                    
+                                    <div class="reference-cont"><h2>This document updates the Internet Engineering Task Force (IETF) Standards Process defined in RFC 2026.  Primarily, it reduces the Standards Process from three Standards Track maturity levels to two.  This memo documents an Internet Best Current Practice.</h2>
+<p>Dave Crocker, Eric Burger, Russ Housley</p>
+</div>
+                                </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                </div>
+
+
+                
+
+                
+
+                
+
+                
+
+            </div>
+            
+
+        </div>
+
+        
+
+    </div>
+
+
+        <footer class="cf">
+    <div class="container">
+        <ul class="links">
+            
+                <li><a href="https://www.rfc-editor.org">RFC Editor</a></li>
+            
+                <li><a href="https://www.iana.org">IANA</a></li>
+            
+                <li><a href="https://www.iab.org">IAB</a></li>
+            
+                <li><a href="https://iaoc.ietf.org">IAOC</a></li>
+            
+                <li><a href="https://www.irtf.org">IRTF</a></li>
+            
+                <li><a href="https://trustee.ietf.org">IETF Trust</a></li>
+            
+                <li><a href="https://www.amsl.com">Secretariat: AMS</a></li>
+            
+                <li><a href="https://www.internetsociety.org">ISOC</a></li>
+            
+                <li><a href="/privacy-policy/">Privacy policy</a></li>
+            
+                <li><a href="/contact/website/">Website feedback</a></li>
+            
+        </ul>
+    </div>
+</footer>
+
+        <script type="text/javascript" src="/static/CACHE/js/b727eb3dac5d.js"></script>
+
+        
+    <script type="text/javascript">
+        
+            if ($(window).width() >= 1150) {
+                $('.side-col.float-right').height($('.key-info-tab').height());
+            }
+        
+
+        
+            $('.key-info').show();
+        
+        
+
+        $('.in-depth').click(function() {
+            $('.in-depth').addClass('active');
+            $('.key-info').removeClass('active');
+            $('.key-info-tab').addClass('hide');
+            $('.in-depth-tab').removeClass('hide');
+            if ($(window).width() >= 1150) {
+                $('.side-col.float-right').height($('.no-overflow-x').height());
+            }
+        });
+        $('.key-info').click(function(){
+            $('.key-info').addClass('active');
+            $('.in-depth').removeClass('active');
+            $('.key-info-tab').removeClass('hide');
+            $('.in-depth-tab').addClass('hide');
+            if ($(window).width() >= 1150) {
+                $('.side-col.float-right').height($('.no-overflow-x').height());
+            }
+        });
+    </script>
+
+    </body>
+</html>

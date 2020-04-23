@@ -1,0 +1,438 @@
+
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>IETF  | Guidelines to Authors of Internet-Drafts</title>
+        
+            <meta name="description" content="" />
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <!-- Twitter summary card - see https://dev.twitter.com/cards/types/summary -->
+        <!--  and https://dev.twitter.com/cards/getting-started -->
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@ietf" />
+        <meta name="twitter:title" content="Guidelines to Authors of Internet-Drafts" />
+        <meta name="twitter:description" content="">
+        <meta name="twitter:image" content="http://www7.ietf.org/media/images/ietflogotrans.original.png">
+
+        <!--facebook opengraph tags-->
+        <meta property="fb:app_id" content="159756941186350" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="/standards/ids/guidelines/" />
+        <meta property="og:title" content="Guidelines to Authors of Internet-Drafts" />
+        <meta property="og:image" content="http://www7.ietf.org/media/images/ietflogotrans.original.png" />
+        <meta property="og:description" content="" />
+        <meta property="og:site_name" content="IETF" />
+
+        <link rel="stylesheet" href="/static/CACHE/css/b27d03853fb9.css" type="text/css" />
+
+        
+        <script>
+            document.write('<link rel="stylesheet" href="/static/CACHE/css/0fc5cc81d363.css" type="text/css" />');
+        </script>
+
+        
+
+        <script src="/static/js/vendor/modernizr-2.6.2.min.42306a279a9e.js"></script>
+
+    </head>
+
+    <body class="template-standard-page">
+
+        
+
+        
+
+<header id="show-search">
+    <div class="nav-search-top">
+        <form action="/search/" method="get" name="search">
+            <label for="nav-search" style="display: none;">Search</label>
+            <input id="nav-search" aria-label="Search" name="query" type="text" placeholder="Search" required="">
+            <button class="" type="submit">Go</button>
+        </form>
+    </div>
+
+    <div class="container" id="menu-open">
+        <div class="cf">
+            <div class="icon-mobile hamburger feedback">
+                <a title="open menu" href="#menu-open" class="open-menu click">
+                    <span class="icon ion-android-menu"></span>
+                </a>
+                <a title="close menu" href="#menu-closed" class="close-menu click">
+                    <span class="icon ion-android-menu"></span>
+                </a>
+            </div>
+
+            <!-- Mobile search -->
+            <div class="icon-mobile feedback search-open">
+                <a href="#show-search" class="click show-search">
+                    <span class="icon ion-search"></span>
+                    <span>Search</span>
+                </a>
+                <a href="#" class="click hide-search">
+                    <span class="icon ion-search"></span>
+                    <span>Search</span>
+                </a>
+            </div>
+            <!-- Mobile search end -->
+        </div>
+
+        <div class="logo-holder">
+            <div class="logo">
+                <a href="/"><img src="/static/img/ietf-logo.e4b6ca0dd271.gif" alt="IETF logo"></a>
+            </div>
+        </div>
+
+        <div class="nav-holder">
+            <!-- Hides sub nav on mobile / shows on desktop-->
+            <div class="mobile-tablet">
+                <ul class="nav-sub">
+                    <li>
+                        <a href="/blog/"> News &amp; blog</a>
+                        <ul>
+                            
+                                <li><a href="/blog/?primary_topic=6">Blog</a></li>
+                            
+                                <li><a href="/blog/?primary_topic=5">News</a></li>
+                            
+                                <li><a href="/blog/?primary_topic=7">IESG Statements</a></li>
+                            
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="/contact/">Contact</a>
+                    </li>
+                    <li class="search search-open">
+                        <a href="#show-search" class="click show-search">
+                            <span class="icon ion-search"></span>
+                            <span>Search</span>
+                        </a>
+                        <a href="#" class="click hide-search">
+                            <span class="icon ion-search"></span>
+                            <span>Search</span>
+                        </a>
+                    </li>
+                    <li class="more">
+                        <a href="/links/">Tools</a>
+                        <ul>
+                            
+                                <li><a href="/links/">Quick links</a></li>
+                            
+                                <li><a href="https://datatracker.ietf.org">IETF Datatracker</a></li>
+                            
+                                <li><a href="https://mailarchive.ietf.org/arch/">Email list archive search</a></li>
+                            
+                                <li><a href="/how/meetings/101/">IETF 101 London</a></li>
+                            
+                                <li><a href="/chairs/">WG chair resources</a></li>
+                            
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <nav>
+                <ul>
+                    
+                        <li>
+                            <a  href="/about/">About</a>
+                            
+                                <ul>
+                                    
+                                        <li><a  href="/about/mission/">Mission and principles</a></li>
+                                    
+                                        <li><a  href="/about/who/">Who we are</a></li>
+                                    
+                                        <li><a  href="/about/groups/">Groups</a></li>
+                                    
+                                        <li><a  href="/about/participate/">Participate in the IETF</a></li>
+                                    
+                                        <li><a  href="/about/support/">Support the IETF</a></li>
+                                    
+                                </ul>
+                            
+                        </li>
+                    
+                        <li>
+                            <a  href="/topics/">Topics of interest</a>
+                            
+                                <ul>
+                                    
+                                        <li><a  href="/topics/netmgmt/">Automated network management</a></li>
+                                    
+                                        <li><a  href="/topics/iot/">The Internet of Things</a></li>
+                                    
+                                        <li><a  href="/topics/transport/">New transport technology</a></li>
+                                    
+                                        <li><a  href="/topics/areas/">IETF Areas</a></li>
+                                    
+                                </ul>
+                            
+                        </li>
+                    
+                        <li>
+                            <a  href="/how/">How we work</a>
+                            
+                                <ul>
+                                    
+                                        <li><a  href="/how/wgs/">Working groups</a></li>
+                                    
+                                        <li><a  href="/how/lists/">Email lists</a></li>
+                                    
+                                        <li><a  href="/how/meetings/">Meetings and events</a></li>
+                                    
+                                        <li><a  href="/how/runningcode/">Running code</a></li>
+                                    
+                                        <li><a  href="/how/tools/">Online tools</a></li>
+                                    
+                                        <li><a  href="/how/community-discussions/">Community discussions</a></li>
+                                    
+                                </ul>
+                            
+                        </li>
+                    
+                        <li>
+                            <a  href="/standards/">Internet standards</a>
+                            
+                                <ul>
+                                    
+                                        <li><a  href="/standards/rfcs/">RFCs</a></li>
+                                    
+                                        <li><a  href="/standards/ids/">Internet-Drafts</a></li>
+                                    
+                                        <li><a  href="/standards/ipr/">Intellectual property rights</a></li>
+                                    
+                                        <li><a  href="/standards/process/">Standards process</a></li>
+                                    
+                                </ul>
+                            
+                        </li>
+                    
+                </ul>
+            </nav>
+
+            <!-- Hides sub nav on desktop / shows on mobile-->
+                <ul class="nav-sub mobile-show-tab">
+                    <li>
+                        <a href="/blog/"> News &amp; blogs</a>
+                        <ul>
+                            
+                                <li><a href="/blog/?primary_topic=6">Blog</a></li>
+                            
+                                <li><a href="/blog/?primary_topic=5">News</a></li>
+                            
+                                <li><a href="/blog/?primary_topic=7">IESG Statements</a></li>
+                            
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="/contact/">Contact</a>
+                    </li>
+                    <li class="search search-open">
+                        <a href="#show-search" class="click show-search">
+                            <span class="icon ion-search"></span>
+                            <span>Search</span>
+                        </a>
+                        <a href="#" class="click hide-search">
+                            <span class="icon ion-search"></span>
+                            <span>Search</span>
+                        </a>
+                    </li>
+                    <li class="more">
+                        <a href="/links/">Tools</a>
+                        <ul>
+                            
+                                <li><a href="/links/">Quick links</a></li>
+                            
+                                <li><a href="https://datatracker.ietf.org">IETF Datatracker</a></li>
+                            
+                                <li><a href="https://mailarchive.ietf.org/arch/">Email list archive search</a></li>
+                            
+                                <li><a href="/how/meetings/101/">IETF 101 London</a></li>
+                            
+                                <li><a href="/chairs/">WG chair resources</a></li>
+                            
+                        </ul>
+                    </li>
+                </ul>
+        </div>
+    </div>
+
+</header>
+
+
+        
+
+    <div class="no-overflow-x">
+
+        <div class="body-white rule-desktop">
+            <div class="container">
+                
+
+
+    <ul class="breadcrumb">
+        <li><a title="home" href="/"><span class="icon ion-android-home"></span></a></li>
+        
+            
+        
+            
+        
+            
+                <li><a href="/standards/">Internet standards</a></li>
+            
+        
+            
+                <li><a href="/standards/ids/">Internet-Drafts</a></li>
+            
+        
+    </ul>
+
+
+                <h1>Guidelines to Authors of Internet-Drafts</h1>
+
+                <p class="intro">These guidelines aim to make it easier for authors to create and submit Internet-Drafts.</p>
+                <ul class="social"></ul>
+
+            </div>
+        </div>
+
+        <div class="container cf">
+
+            <div class="three none body-white float-right mobile-colour rule-mobile side-col">
+    <div class="this-section feedback">
+        <a class="see" href="#">In this section</a>
+        <a class="hide">Hide in this section</a>
+    </div>
+    <ul class="side-nav sticky">
+      <li class="section"><a href="/standards/ids/">Internet-Drafts</a></li>
+      
+        
+          <li class="active">
+            <a href="/standards/ids/guidelines/">Guidelines to Authors of Internet-Drafts</a>
+            
+          </li>
+        
+      
+        
+          <li><a href="/standards/ids/checklist/">Checklist for Internet-Drafts (IDs) submitted for RFC publication</a></li>
+        
+      
+        
+          <li><a href="/standards/ids/idsignatures/">Internet-Draft signatures</a></li>
+        
+      
+    </ul>
+</div>
+
+
+            
+            <div class="nine">
+
+                
+
+                
+                <div class="body body-panel bleed-left clearfix">
+                    
+                        <div class="key-info-tab has-references">
+                        <h2 class="nojs">Key Info</h2>
+                            <div class="block-paragraph"><div class="rich-text"><p>I-D Guidelines<br/>R. Housley (for the IESG) <br/>Vigil Security <br/>7 December 2010</p><hr/><h3>Table of Contents</h3><p>1.  Submissions<br/>2.  General Considerations<br/>3.  IPR-Related Notices Required in Internet-Drafts<br/>4.  Optional IPR-Related Notices that May Be Included in Internet-Drafts<br/>5.  Internet-Draft Boilerplate<br/>6.  Formatting<br/>7.  Naming and Submitting<br/>8.  Expiring<br/>9.  Intellectual Property Rights<br/>10.  Further Reading<br/>11.  References<br/>Appendix A.  Change History<br/>§  Author's Address</p><a></a><br/><hr/><a></a><h3>1.  Submissions</h3><p>ALL submissions to the Internet-Draft directories should use the I-D Submission tool [<a href="https://www.ietf.org/id-info/guidelines.html#IDST">IDST</a>]. </p><p>If you run into problems when submitting an Internet-Draft using the I-D Submission tool, or it is not available or you are offline, you may alternatively submit your draft by email to internet-drafts@ietf.org. However, be advised that manual processing always takes additional time. </p><p>When using the email submission method, the I-D may be sent as an attachment to the message, or the message may contain a URL that points to a copy of the I-D stored on a server. </p><p>Attachments must be plain text, PostScript, or PDF. These are the only formats that are currently supported for I-Ds, and any other attachment, such as a ZIP file, will be discarded without opening.</p><a></a><br/><hr/><a></a><h3>2.  General Considerations</h3><p>The Internet-Drafts repository is available to provide authors with the ability to distribute and solicit comments on documents they may eventually submit for publication as an RFC. I-Ds are not an archival document series. I-Ds should not be cited or quoted in any formal document, except as "work in progress". Unrevised documents placed in the I-D repository have a maximum life of 185 days. After that time, if I-D is not updated, it will be deleted. See RFC 2026 [<a href="https://www.ietf.org/id-info/guidelines.html#RFC2026">RFC 2026</a>] for more information. In exceptional circumstances, an extension of this lifetime is possible; see <a href="https://www.ietf.org/id-info/guidelines.html#expiry">Section 8</a> below. After a document becomes an RFC, it will be replaced in the I-D repository with an announcement of the RFC.</p><p>I-Ds are generally in the format of an RFC, although they may be rough drafts when the first version is submitted. This format is specified fully in "Instructions to RFC Authors" (on the RFC Editor's Web pages [<a href="https://www.ietf.org/id-info/guidelines.html#RFCED">RFCED</a>]). In brief, an I-D must be submitted in ASCII text, and should be limited to 72 characters per line and 58 lines per page, and each page ends with a formfeed character. Overstriking to achieve bolding or underlining is not acceptable.</p><p>PostScript and/or PDF are acceptable, but only when submitted with a matching ASCII version (even if figures must be omitted). PostScript and PDF should be formatted for use on 8.5x11 inch paper. If A4 paper is used, an image area no greater than 254mm high should be used to avoid printing extra pages when printed on 8.5x11 paper.</p><p>There are differences between the RFC and I-D format. I-Ds are NOT RFCs, and I-Ds are NOT a numbered document series. The label "INTERNET-DRAFT" should appear in the upper left hand corner of the first page. If the I-D is associated with an IETF working group, the name of the working group should appear on the line below the "INTERNET-DRAFT" label. The document should NOT refer to itself as an RFC or a draft RFC.</p><p>The I-D should neither state nor imply that it has any standards status; to do so conflicts with the roles of the RFC Editor and the IESG. The title of the document should not imply a status. Avoid the use of the terms Standard, Proposed, Draft, Experimental, Historic, Required, Recommended, Elective, or Restricted in the I-D title. Indicating what intended status the I-D if it is published as an RFC is fine; however, this should be done with the words "Intended status: &lt;status&gt;" on the left side of the first page.<a></a><br/></p><hr/><a></a><h3>3.  IPR-Related Notices Required in Internet-Drafts</h3><p>BCP 78 [<a href="https://www.ietf.org/id-info/guidelines.html#RFC5378">RFC5378</a>] and BCP 79 [<a href="https://www.ietf.org/id-info/guidelines.html#RFC3979">RFC3979</a>][<a href="https://www.ietf.org/id-info/guidelines.html#RFC4879">RFC4879</a>] require specific intellectual property rights (IPR) statements in every Internet-Draft.<br/><br/>All I-Ds must include one of the following statements. They are normally placed on the first or second page the document.</p><p>Documents that will be published as IETF stream RFCs must include the first choice, which is:</p><p>"Copyright (c) YYYY IETF Trust and the persons identified as the document authors. All rights reserved.</p><p>This document is subject to BCP 78 and the IETF Trust's Legal Provisions Relating to IETF Documents (http://trustee.ietf.org/license-info) in effect on the date of publication of this document. Please review these documents carefully, as they describe your rights and restrictions with respect to this document. Code Components extracted from this document must include Simplified BSD License text as described in Section 4.e of the Trust Legal Provisions and are provided without warranty as described in the Simplified BSD License."</p><p>Documents that will be published as IAB, IRTF, or Independent Submission stream RFCs may include the second choice instead of the first choice copyright statement. The second choice is:</p><p>"Copyright (c) YYYY IETF Trust and the persons identified as the document authors. All rights reserved.</p><p>This document is subject to BCP 78 and the IETF Trust's Legal Provisions Relating to IETF Documents (http://trustee.ietf.org/license-info) in effect on the date of publication of this document. Please review these documents carefully, as they describe your rights and restrictions with respect to this document."</p><p>Of course, "YYYY" in either of the copyright statements should be replaced with the current year.</p><p>Any I-D submission which does not include one of these statements will be returned to the submitter. The IETF Secretariat will NOT add this text for the author.</p><p>Note that although these statements appear to be written in English, they are actually written in lawyerese. Although it is awfully tempting to modify them, please don't. It adds too much overhead to the I-D submission process to evaluate alterations to the boilerplate to decide whether or not it changes the meaning.</p><a></a><br/><hr/><h3>4.  Optional IPR-Related Notices that May Be Included in Internet-Drafts</h3><p>If the submitter desires to eliminate the IETF's right to make modifications and derivative works of an Internet-Draft, one of the following two notices may be included after the IPR statement. The first choice is used if the contributor intends for the I-D to be published as an RFC. </p><p>The first choice is used if the contributor intends for the I-D to be published as an RFC. The first choice is: </p><p>"This document may not be modified, and derivative works of it may not be created, except to format it for publication as an RFC or to translate it into languages other than English." </p><p>The second choice is when the contributor does not intend for the I-D to be published as an RFC. The second choice is: </p><p>"This document may not be modified, and derivative works of it may not be created, and it may not be published except as an Internet-Draft." </p><p>These notices may not be used with any IETF standards-track document or with most working group documents, except as discussed in BCP 78 [<a href="https://www.ietf.org/id-info/guidelines.html#RFC5378">RFC5378</a>], since the IETF must retain change control over its documents and the ability to augment, clarify and enhance the original contribution in accordance with the IETF Standards Process.</p><p>The first choice may be appropriate when republishing standards produced by a standards body other than the IETF, industry consortia or companies. These are typically published as Informational RFCs, and do not require that change control be ceded to the IETF. Documents of this type convey information for the Internet community. </p><p>The second choice may be used on I-Ds that are intended to provide background information to educate and to facilitate discussions within IETF working groups but are not intended to be published as RFCs. <a></a><br/></p><hr/><h3>5.  Internet-Draft Boilerplate</h3><p>One of the following verbatim statements must follow the IPR statement and optional notices if any are included. The first choice has been in use for a very long time, and it is still acceptable and appropriate. The first choice is:</p><p>"This Internet-Draft is submitted in full conformance with the provisions of BCP 78 and BCP 79. Internet-Drafts are working documents of the Internet Engineering Task Force (IETF), its areas, and its working groups. Note that other groups may also distribute working documents as Internet- Drafts.</p><p>Internet-Drafts are draft documents valid for a maximum of six months and may be updated, replaced, or obsoleted by other documents at any time. It is inappropriate to use Internet- Drafts as reference material or to cite them other than as "work in progress."</p><p>The list of current Internet-Drafts can be accessed at <a href="http://www.ietf.org/1id-abstracts.html">http://www.ietf.org/1id-abstracts.html</a></p><p>The list of Internet-Draft Shadow Directories can be accessed at <a href="http://www.ietf.org/shadow.html">http://www.ietf.org/shadow.html</a>"</p><p>In the modern Internet, the need for stable URLs is more important than providing multiple sites around the world to obtain I-Ds. Also, search engines have replaced the need for a file containing a collection of I-D abstracts. As a result, the second choice is:</p><p>"This Internet-Draft is submitted in full conformance with the provisions of BCP 78 and BCP 79. Internet-Drafts are working documents of the Internet Engineering Task Force (IETF). Note that other groups may also distribute working documents as Internet-Drafts. The list of current Internet-Drafts is at <a href="http://datatracker.ietf.org/drafts/current">http://datatracker.ietf.org/drafts/current</a>.</p><p>Internet-Drafts are draft documents valid for a maximum of six months and may be updated, replaced, or obsoleted by other documents at any time. It is inappropriate to use Internet- Drafts as reference material or to cite them other than as "work in progress.""</p><p>Any submission which does not include one of these statements will be returned to the submitter. The IETF Secretariat will NOT add this text for the author.</p><a></a><br/><hr/><h3>6.  Formatting</h3><p>Every Internet-Draft must have an Abstract section. The Abstract should provide a concise and comprehensive overview of the purpose and contents of the entire document. Its purpose is to give a technically knowledgeable reader a general overview of the function of the document, to decide whether reading it will be useful. In addition to its function in the document, the Abstract section is used as a summary in publication announcements and in the online index of I-D [<a href="https://www.ietf.org/id-info/guidelines.html#INDEX">INDEX</a>].</p><p>Composing a useful Abstract is a non-trivial writing task. Often, a satisfactory abstract can be constructed in part from material from the Introduction section, but a good abstract will be shorter, less detailed, and broader in scope than the Introduction. Simply copying and pasting the first few paragraphs of the Introduction is tempting, but it generally results in an Abstract that is both incomplete and redundant.</p><p>An Abstract will typically be 5-10 lines, but an Abstract of more than 20 lines or less than 3 lines is generally not acceptable.</p><p>An Abstract should be complete in itself, so it should contain no citations unless they are completely defined within the Abstract. Abbreviations appearing in the Abstract should generally be expanded in parentheses. There is a small set of reasonable exceptions to this rule; for example, readers don't need to be reminded of what "IP" or "TCP" or "MIB" means. In the end, therefore, this is a judgment call, but please err on the side of explicitness.</p><p>In addition, the I-D should contain a section giving name and contact information (postal mail, voice/fax number and/or e-mail) for the authors.</p><p>All I-D must contain the full filename (beginning with draft- and including the version number) in the text of the document. The filename information should, at a minimum, appear on the first page (possibly with the title). I-D filenames use ONLY lowercase characters. See Section 7 for more information on filenames.</p><p>It is strongly recommended that the draft include a notice (with email address) of where comments should be sent. For example:</p><p>"Comments are solicited and should be addressed to the working group's mailing list at ___@______ and/or the author(s)."</p><p>A document expiration date should appear on the first and last page of the I-D. The expiration date is 185 days following the I-D submission of the document. Use of the phrase "expires in six months" or "expires in 185 days" is not acceptable.</p><p>I-Ds must be in ASCII. No 8-bit characters are allowed. If you need to include code points, one suggestion is to use the Unicode convention: U+XXXX, where X is a hexadecimal digit.</p><p>If the I-D is longer than fifteen pages, please include a table of contents to make the document easier to reference. The table of contents should be included at the start of the document, after the Abstract, IPR-related notices, and other boilerplate. </p><a></a><br/><hr/><h3>7.  Naming and Submitting</h3><p>An Internet-Draft filename is made up of several components, each separated by a hyphen. No empty components are permitted. The components, in order are:</p><ol><li>All I-D filenames begin with "draft"</li><li>Document source:<ul><li>Working Group: The string "ietf-" followed by the working group acronym.</li><li>Other: A string identifying an IETF-related body. The currently allowed list is<ul><li>iab </li><li>iana</li><li>iaoc </li><li>iesg </li><li>ietf-edu </li><li>ietf-tools </li><li>ietf-trust </li><li>irtf </li><li>rfc-editor </li><li>rfced (Historic) </li><li>ietf-iesg (Historic) </li><li>ietf-proto (Historic)</li></ul></li><li>Individual: A string related to the name of one of the authors in some way. There are no mechanical rules for this string but objectionable or misleading strings are subject to change or removal at the discretion of the Secretariat.</li></ul></li><li>Document name. For non-working group documents that are targeted at a working group, this string often begins with the working group abbreviation. This document name is a word or two that reflect what the draft is about.</li><li>Two digit decimal version number; the initial draft uses "00".</li></ol><p>Note that the limit on the total length of an I-D filename excluding the version number is 50 characters, and the only characters allowed in an I-D filename are lowercase letters, numerals and hyphens. Two sequential hyphens are not permitted. I-D filenames are never reused; if a previous document has used your desired I-D filename, then you must pick another one.</p><p>For those authors submitting updates to existing I-D, the choice of the I-D filename is easily determined; up the version by 1. For new documents, submit the document with a suggested I-D filename following the above rules. Note that if the suggested filename is not acceptable for some reason (e.g., not getting working group chair approval for a working group document), the document will have to be resubmitted with an acceptable I-D filename.</p><p>If the document is a new one (i.e., a version of "00") and is submitted as a working group document, the IETF Secretariat needs permission from one of the chair of the IETF working group to publish it. Working group chairs should submit this permission at (or close to) the time that the draft is submitted for posting. When the I-D Submission tool is not used, authors are encouraged to send the document to "<a href="mailto:internet-drafts@ietf.org">internet-drafts@ietf.org</a>" and at the same time CC to the working group chair(s). If the document is accepted as a working group document, then it will have the draft-ietf-&lt;wg acronym&gt; I-D filename and will be announced on the working group mailing list by the IETF Secretariat. If the document is not accepted as a working group document, it will be processed as an individual submission, where the filename will be draft-&lt;yourname&gt;, as described above.</p><p>NOTE: Version numbers are based on the I-D filename (as in first, second, or third version of this document). If there is a I-D filename change, the version number starts over at -00. Put another way, the prior version number will NOT be incremented when an I-D filename has changed, e.g., from an individual to a working group document. ALL FILES BEGIN at -00.</p><p>Before each IETF meeting, a deadline is announced for submitting documents ahead of time to be published for discussion at the meeting. For new documents, the deadline is one week earlier than for revisions of existing drafts. The only exception is for version -00 working group drafts that replace existing non-working-group documents; these documents may be submitted up to the deadline for new versions of existing documents. Care should be taken when submitting an I-D near the deadline. The Secretariat receives hundreds of I-D immediately preceding an IETF meeting, and it can take several days to process and post them all, especially the ones that do not use the I-D Submission Tool [<a href="https://www.ietf.org/id-info/guidelines.html#IDST">IDST</a>]. If an I-D that was submitted very close to the deadline has not been posted and announced within three days, then the submitter should send a message to <a href="mailto:ietf-action@ietf.org">ietf-action@ietf.org</a> (using the suggested subject line "Status of I-D Submission: &lt;filename&gt;") and reference the acknowledgement for the document in the body of the message. The Secretariat will happily investigate the situation and post any valid submission that was not posted in the first round.</p><p>When you submit an I-D, you will receive an acknowledgement message from the Secretariat. The subject and details are different for acknowledments from the I-D Submission Tool and submission by email. If you do not receive an acknowledgement within 2 business hours (in the Pacific time zone) after submitting your Internet-Draft, please contact the Secretariat by sending a message to <a href="mailto:ietf-action@ietf.org">ietf-action@ietf.org</a>. The suggested subject line for this note is: "Status of I-D Submission: &lt;filename&gt;". If you need to track the status of your Internet-Draft at a later date, please send a message to <a href="mailto:ietf-action@ietf.org">ietf-action@ietf.org</a> (using the suggested subject line "Status of I-D Submission: &lt;filename&gt;") and include the acknowledgement for your document in the body.</p><a></a><br/><hr/><h3>8.  Expiring</h3><p>An Internet-Draft will expire exactly 185 days from the date that it is posted on the IETF Web site (&lt;<a href="https://www.ietf.org/id-info/">http://www.ietf.org/id-info/</a>&gt;) unless it is replaced by an updated version (in which case the clock will start all over again for the new version, and the old version will be removed from the I-D repository), or unless it is under official review by the IESG (i.e., a request to publish it as an RFC has been submitted). Specifically, when an I-D enters the "Publication Requested" state in the Data Tracker [<a href="https://www.ietf.org/id-info/guidelines.html#TRACK">TRACK</a>], it will not be expired until its status is resolved (e.g., it is published as an RFC). Data Tracker states not associated with a formal request to publish a document (e.g., "AD is Watching") will not prevent an I-D from expiring.</p><p>I-Ds will not expire during the period surrounding an IETF meeting when posting of updates to I-Ds is suspended (i.e., between the cutoff date for submission of updated I-Ds, which is usually two weeks prior to an IETF meeting, and the date that posting of I-Ds resumes). All I-Ds scheduled to expire during this period will expire on the day that the Secretariat once again begins posting I-Ds.</p><p>When an I-D expires, a "tombstone" file will be created that includes the filename and version number of the I-D that has expired. The filename of the tombstone file will be the same as that of the expired I-D with the version number increased by one. If a revised version of an expired I-D is submitted for posting, then the revised version will replace the tombstone file and must have the same version number as that previously assigned to the tombstone file. Tombstone files will never expire and will always be available for reference unless they are replaced by updated versions of the subject I-D or the expired version is brought back by the explicit action of an Area Director.</p><p>An expired I-D may be unexpired when necessary to further the work of the IETF, including IETF liaison with other standards bodies. Such action will be taken by request of an IESG member, a chair of the working group associated with the I-D, or one of the document authors. Such a request may be overridden; e.g., a chair of the working group associated with the I-D will be notified if an author requests unexpiration and may request that the action not occur. This request should be sent to <a href="mailto:internet-drafts@ietf.org">internet-drafts@ietf.org</a> (using the suggested subject line "Resurrect I-D &lt;filename&gt;") and should come from an author, a working group chair, or an IESG member.</p><p>The expiration date of an unexpired I-D may be extended with the same rules as unexpiration. This request should be sent to <a href="mailto:internet-drafts@ietf.org">internet-drafts@ietf.org</a> (using the suggested subject line "Extend expiration date for &lt;filename&gt;") and should be from an author, a working group chair, or an IESG member.</p><a></a><br/><hr/><h3>9.  Intellectual Property Rights</h3><p>If you think that you, your company, or anyone else owns a patent or other IPR on the work described in the I-D, you should carefully read BCP 79 [<a href="https://www.ietf.org/id-info/guidelines.html#RFC3979">RFC3979</a>][<a href="https://www.ietf.org/id-info/guidelines.html#RFC4879">RFC4879</a>]. The first notice required in I-D, described in Section 3 of this document, obligates you to send an IPR disclosure statement under certain circumstances. Before submitting the I-D, it is advisable to talk to the working group chair or area directors about it.</p><a></a><br/><hr/><h3>10.  Further Reading</h3><p>This document is for helping authors. If you need the definitive rules, then read the following documents. The IETF Standards Process is described in RFC 2026 [<a href="https://www.ietf.org/id-info/guidelines.html#RFC2026">RFC2026</a>]. The IETF rules concerning copyright are described in BCP 78 [<a href="https://www.ietf.org/id-info/guidelines.html#RFC5378">RFC5378</a>]. The IETF rules on IPR are described in BCP 79 [<a href="https://www.ietf.org/id-info/guidelines.html#RFC3979">RFC3979</a>][<a href="https://www.ietf.org/id-info/guidelines.html#RFC4879">RFC4879</a>]. The IETF Trust Legal Provisions Relating to IETF Documents [<a href="https://www.ietf.org/id-info/guidelines.html#TLP">TLP</a>], called "the TLP" for short, provide many details about copyright policy and practice.</p><p>There are several tools to help the process of writing an I-D in this format; the RFC Editor has collected several pointers on their web page (&lt;<a href="https://www.rfc-editor.org/formatting.html">http://www.rfc-editor.org/formatting.html</a>&gt;).</p><p>Henrik Levkowetz has written an excellent tool that checks many of these requirements: &lt;<a href="https://tools.ietf.org/tools/idnits/">http://tools.ietf.org/tools/idnits/</a>&gt;.</p><p>The I-D Checklist &lt;<a href="https://www.ietf.org/id-info/checklist.html">http://www.ietf.org/id-info/checklist.html</a>&gt; is a good reference when submitting a document to the IESG for publication as an RFC.</p><p>Also, the RFC Editor's Web pages on how to publish an RFC will be useful [<a href="https://www.ietf.org/id-info/guidelines.html#RFCED">RFCED</a>].</p><a></a><br/><hr/><h3>11. References</h3><a></a>[IDST] <a href="https://datatracker.ietf.org/submit/">https://datatracker.ietf.org/submit/</a><br/><br/>[INDEX] <a href="https://www.ietf.org/id/1id-abstracts.txt">http://www.ietf.org/id/1id-abstracts.txt</a><br/><a><br/>[RFC2026 </a>Bradner, S., "<a href="https://tools.ietf.org/html/rfc2026">The Internet Standards Process -- Revision 3</a>," BCP 9, RFC 2026, October 1996 (<a href="https://www.ietf.org/rfc/rfc2026.txt">TXT</a>).<br/><a><br/>[RFC3979] </a>Bradner, S., "<a href="https://tools.ietf.org/html/rfc3979">Intellectual Property Rights in IETF Technology</a>," BCP 79, RFC 3979, March 2005 (<a href="https://www.ietf.org/rfc/rfc3979.txt">TXT</a>).<br/><br/>[RFC4879] Narten, T., "<a href="https://www.ietf.org/rfc/rfc4879.txt">Clarification of the Third Party Disclosure Procedure in RFC 3979</a>," BCP 79, RFC 4879, April 2007.<br/><br/>[RFC5378] Bradner, S., Ed. and J. Contreras, Ed., "<a href="https://www.ietf.org/rfc/rfc5378.txt">Rights Contributors Provide to the IETF Trust</a>," BCP 78, RFC 5378, November 2008.<br/><br/>[RFCED] <a href="https://www.rfc-editor.org/styleguide.html">http://www.rfc-editor.org/styleguide.html</a><br/><br/>[TLP] <a href="https://trustee.ietf.org/docs/IETF-Trust-License-Policy.pdf">http://trustee.ietf.org/docs/IETF-Trust-License-Policy.pdf</a><p><br/>[TRACK]<a href="https://datatracker.ietf.org/idtracker">https://datatracker.ietf.org/idtracker</a></p><p></p><p></p><p></p><p><br/></p><p></p><p></p><hr/><h3>Appendix A.  Change History</h3><p>Changes from February 9, 2010 version to May 4, 2010 version: </p><ul><li>Updated the [RFCED] reference to point to the RFC Editor Style Guide.</li></ul><p>Changes from February 7, 2010 version to February 9, 2010 version:</p><ul><li>Correct the typographical errors in the excerpts from the Trust License Policy (TLP) in Section 4. </li></ul><p>Changes from February 2, 2010 version to February 7, 2010 version:</p><ul><li>New boilerplate can push the table of contents to page three. </li><li>Ask for a table of contents if the I-D exceeds 15 pages. Dropped "about."</li></ul><p>Changes from February 27, 2008 version to February 2, 2010 version:</p><ul><li>Update the references to reflect the current BCPs. Remove the reference to rfc2333bis, which is no longer an active work item. Add a references for the I-D Submission Tool and the Data Tracker.</li><li>Rewrite of Section 3.</li><li>Structure the choices in Section 4 to match the current BCPs.</li><li>Provide two boilerplate options in Section 5, as approved by the IESG on 7 January 2010.</li><li>Remove the discussion of grace period from Section 7. With the I-D Submission Tool, there is no longer a need for one.</li><li>Include URLs that are not redirected.</li><li>Significant editorial changes.</li></ul><p>Changes from October 13, 2006 version to February 27, 2008 version:</p><ul><li>Add reference to I-D Submission Tool in Section 1.</li><li>Add rule that -00 documents that are WG submissions that are renaming of existing documents can be submitted up to the later deadline in Section 7.</li><li>Update references to [RFC4748] to reflect the RFC number.</li><li>Update filename requirements to prevent sequential hyphens</li></ul><p>Changes from March 25, 2005 version to October 13, 2006 version:</p><ul><li>Relax rules for "document source" part of filename in Section 7.</li><li>Updated to reflect changes described in [RFC4748].</li><li>Loosen the "near the end of the document" text for boilerplate in<br/>Section 3.</li><li>Changed idnits reference to tools.ietf.org</li></ul><p>Changes from Feb 8, 2005 version to March 25, 2005 version:</p><ul><li>Update all references from RFCs 3667/3668 to 3978/3979. </li><li>Update IPR boilerplate with words from RFC3978. Add a note that it's not appropriate to change the boilerplate, even if it seems wrong. </li><li>Make it clear in the IPR section that the author is required to disclose IPR under certain circumstances by the 3978/3979 boilerplate. </li><li>Add "Any submission which does not include these statements will be returned to the submitter. The IETF Secretariat will NOT add this text." to the section on Internet-Draft boilerplate too. </li><li>Spell out exactly how drafts are named. </li><li>Remove the option of asking the secretariat for an Internet-Draft name. </li><li>Add the option for an author to un-expire or extend the expiration date of an Internet-Draft. </li><li>Treat Postscript and PDF the same. </li><li>Say "254mm" instead of "10 inches" since we're talking about metric paper sizes. </li><li>Fix minor typos and make some wording changes in the section on Abstracts, making the text closer to 2223bis. </li><li>Include documentation on the I-D deadline and how to check on I-Ds submitted near the deadline. </li><li>Add a pointer to the RFC-Editor's formatting web page. </li></ul><a></a><br/><hr/><h3>Author's Address</h3>Russ Housley<br/>Vigil Security <br/>918 Spring Knoll Drive <br/>Herndon, VA 20170 <br/>USA <br/>Email: <a href="mailto:housley@vigilsec.com">housley@vigilsec.com</a><p></p><p></p><p></p></div></div>
+                        </div>
+                    
+
+                    
+
+                    
+
+                </div>
+
+
+                
+
+                
+
+                
+
+                
+
+            </div>
+            
+
+        </div>
+
+        
+
+    </div>
+
+
+        <footer class="cf">
+    <div class="container">
+        <ul class="links">
+            
+                <li><a href="https://www.rfc-editor.org">RFC Editor</a></li>
+            
+                <li><a href="https://www.iana.org">IANA</a></li>
+            
+                <li><a href="https://www.iab.org">IAB</a></li>
+            
+                <li><a href="https://iaoc.ietf.org">IAOC</a></li>
+            
+                <li><a href="https://www.irtf.org">IRTF</a></li>
+            
+                <li><a href="https://trustee.ietf.org">IETF Trust</a></li>
+            
+                <li><a href="https://www.amsl.com">Secretariat: AMS</a></li>
+            
+                <li><a href="https://www.internetsociety.org">ISOC</a></li>
+            
+                <li><a href="/privacy-policy/">Privacy policy</a></li>
+            
+                <li><a href="/contact/website/">Website feedback</a></li>
+            
+        </ul>
+    </div>
+</footer>
+
+        <script type="text/javascript" src="/static/CACHE/js/b727eb3dac5d.js"></script>
+
+        
+    <script type="text/javascript">
+        
+            if ($(window).width() >= 1150) {
+                $('.side-col.float-right').height($('.key-info-tab').height());
+            }
+        
+
+        
+            $('.key-info').show();
+        
+        
+
+        $('.in-depth').click(function() {
+            $('.in-depth').addClass('active');
+            $('.key-info').removeClass('active');
+            $('.key-info-tab').addClass('hide');
+            $('.in-depth-tab').removeClass('hide');
+            if ($(window).width() >= 1150) {
+                $('.side-col.float-right').height($('.no-overflow-x').height());
+            }
+        });
+        $('.key-info').click(function(){
+            $('.key-info').addClass('active');
+            $('.in-depth').removeClass('active');
+            $('.key-info-tab').removeClass('hide');
+            $('.in-depth-tab').addClass('hide');
+            if ($(window).width() >= 1150) {
+                $('.side-col.float-right').height($('.no-overflow-x').height());
+            }
+        });
+    </script>
+
+    </body>
+</html>
